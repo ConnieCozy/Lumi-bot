@@ -77,6 +77,11 @@ Built for:
 
 ---
 
+## 🛠️ Utility commands
+![utility](assets/utiliy.png)
+
+---
+
 # 🚧 Roadmap
 
 - [x] Warning system
@@ -112,6 +117,6 @@ Lumi is self-hosted and not available 24/7.
 
 # 🌐 Community
 
-- 🎮 Twitch: ConnieCozy  
-- 💬 Discord: (coming soon)
+- 🎮 Twitch: [ConnieCozy](https://www.twitch.tv/conniecozy)  
+- 💬 Discord: [Lumi Support](https://discord.gg/wJ8xjWJ2Nd)
 - 📢 Updates: GitHub repository
