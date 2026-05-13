@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Lumi_2026-05-06-15-34-02" src="https://github.com/user-attachments/assets/a815fa3f-7471-48f6-b158-05c098d9930e" width="500"/>
+  <img src="https://github.com/user-attachments/assets/5e9f32df-b85d-4ab2-b66d-754988ff7526" width="300" style="border-radius:10px"/>
 </p>
 
 <h1 align="center">⚡ Lumi</h1>
