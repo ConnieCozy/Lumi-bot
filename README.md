@@ -1,11 +1,15 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/5e9f32df-b85d-4ab2-b66d-754988ff7526" width="300" style="border-radius:10px"/>
+  <img src="assets/lumi.png" width="350"/>
 </p>
 
 <h1 align="center">⚡ Lumi</h1>
 
 <p align="center">
-  A personal multi-purpose Discord bot built with passion, curiosity and probably too much caffeine.
+  A personal multi-purpose Discord bot built with passion, curiosity and too much caffeine.
+</p>
+
+<p align="center">
+🚧 Project Status: In active development • Not available 24/7
 </p>
 
 ---
@@ -16,8 +20,7 @@
   <img src="https://img.shields.io/badge/Status-In%20Development-yellow?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Slash%20Commands-Enabled-blue?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Future-AI%20Features-8A2BE2?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Hosted-Self--Hosted-purple?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Uptime-Not%2024%2F7-orange?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Self--Hosted-purple?style=for-the-badge"/>
 </p>
 
 <p align="center">
@@ -25,23 +28,24 @@
   <img src="https://img.shields.io/badge/Mental%20Stability-Fragile-ff66aa?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Bugs-Probably-orange?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Cuteness-Over%209000-ffb7d5?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/License-All%20Rights%20Reserved-red?style=for-the-badge"/>
 </p>
 
 ---
 
 # ✨ About
 
-Lumi is a personal Discord bot project created to learn, experiment and build cool things over time.
+Lumi is a personal Discord bot project created to learn, experiment and build things over time.
 
-The goal is not to create a perfect bot, but to improve step by step while exploring new ideas and features.
+It is not a finished product, but an evolving system that improves step by step with new ideas and features.
 
-Built mainly for:
+Built for:
 - community management
 - moderation
 - fun commands
 - experimentation
 - Twitch integration
-- future AI features
+- future AI systems
 
 ---
 
@@ -58,20 +62,17 @@ Built mainly for:
 
 # 📸 Screenshots
 
-## Moderation
-
+## 🛡️ Moderation
 ![warn](assets/warn.png)
 
 ---
 
-## Logging System
-
+## 📜 Logs
 ![logs](assets/logs.png)
 
 ---
 
-## Fun Commands
-
+## 🎮 Fun commands
 ![fun](assets/fun.png)
 
 ---
@@ -80,24 +81,12 @@ Built mainly for:
 
 - [x] Warning system
 - [x] Logging system
-- [ ] Automod
+- [ ] AutoMod system
 - [ ] Music system
-- [ ] Twitch features
-- [ ] AI integration
+- [ ] Twitch integration
+- [ ] AI features
 - [ ] Dashboard
 - [ ] More chaos
-
----
-
-# ⚠️ Disclaimer
-
-This is an amateur project made with passion and curiosity.
-
-Some things may be broken.
-Some ideas may never work.
-And some features probably exist only because they sounded funny at 2AM.
-
-Lumi is self-hosted and not available 24/7.
 
 ---
 
@@ -109,8 +98,20 @@ Break things.
 Fix them.
 Repeat.
 
-## 🌐 Community
+---
 
-- Discord support server
-- Twitch
-- Updates & previews
+# ⚠️ Disclaimer
+
+This is a personal amateur project built with passion and curiosity.
+
+Some features may break.
+Some ideas may change or disappear over time.
+Lumi is self-hosted and not available 24/7.
+
+---
+
+# 🌐 Community
+
+- 🎮 Twitch: ConnieCozy  
+- 💬 Discord: (coming soon)
+- 📢 Updates: GitHub repository
