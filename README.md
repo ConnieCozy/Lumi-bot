@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.png" width="500"/>
+  <img src="assets/banner.png" width="900"/>
 </p>
 
 <h1 align="center">⚡ Lumi</h1>
