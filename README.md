@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.png" width="350"/>
+  <img src="assets/banner.png" width="500"/>
 </p>
 
 <h1 align="center">⚡ Lumi</h1>
@@ -45,7 +45,7 @@ Built for:
 - fun commands
 - experimentation
 - Twitch integration
-- future AI systems
+- future AI systems (?)
 
 ---
 
@@ -63,7 +63,7 @@ Built for:
 # 📸 Screenshots
 
 ## 🛡️ Moderation
-![warn](assets/warn.png)
+![warn](assets/warn.png) 
 
 ---
 
