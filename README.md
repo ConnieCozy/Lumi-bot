@@ -119,4 +119,4 @@ Lumi is self-hosted and not available 24/7.
 
 - 🎮 Twitch: [ConnieCozy](https://www.twitch.tv/conniecozy)  
 - 💬 Discord: [Lumi Support](https://discord.gg/wJ8xjWJ2Nd)
-- 📢 Updates: GitHub repository
+- 📢 Updates: [Github](https://github.com/ConnieCozy/Lumi-bot.git)
