@@ -78,7 +78,7 @@ Built for:
 ---
 
 ## 🛠️ Utility commands
-![utility](assets/utiliy.png)
+![help](assets/utility.png)
 
 ---
 
