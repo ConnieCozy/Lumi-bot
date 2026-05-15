@@ -84,7 +84,7 @@ Built for:
 
 # 🚧 Roadmap
 
-- [x] Warning system
+- [x] Moderation system
 - [x] Logging system
 - [ ] AutoMod system
 - [ ] Music system
