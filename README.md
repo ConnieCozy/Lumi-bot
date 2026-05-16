@@ -86,7 +86,7 @@ Built for:
 
 - [x] Moderation system
 - [x] Logging system
-- [ ] AutoMod system
+- [X] AutoMod system
 - [ ] Music system
 - [ ] Twitch integration
 - [ ] AI features
