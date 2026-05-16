@@ -50,3 +50,8 @@
 ### fix
 -  fix weather and 8ball commands
 
+
+## [1.1.0] - 2026-05-16
+### improve
+- AUTOMOD UPDATE V1: anti-spam, anti duplicate, escalation system, auto mute after warnings, automod logs, message delete logs, message updata logs, anti raid detecttion v1, automod enable / disable, moderation cases integration, multi-server automod suport
+
