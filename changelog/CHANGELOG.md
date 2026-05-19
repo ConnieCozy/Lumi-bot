@@ -63,3 +63,7 @@
 ## [1.2.0] - 2026-05-18
 ### add
 -  improve botinfo, 8ball - add userinfo, serverinfo, avatar, roleinfo, stats, uptime, invite, dice, slap, hack + hotfix 
+
+## [1.2.1] - 2026-05-19
+### fix
+- organization commands
