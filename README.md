@@ -83,6 +83,11 @@ Built for:
 
 ---
 
+## ⚡𝗟𝘂𝗺𝗶 
+![lumi](assets/lumiinteraction.png)
+
+---
+
 # 🚧 Roadmap
 
 - [x] Moderation system
