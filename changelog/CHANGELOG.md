@@ -60,10 +60,17 @@
 ### refactor
 - refactor logger + hotfix
 
+
 ## [1.2.0] - 2026-05-18
 ### add
 -  improve botinfo, 8ball - add userinfo, serverinfo, avatar, roleinfo, stats, uptime, invite, dice, slap, hack + hotfix 
 
+
 ## [1.2.1] - 2026-05-19
 ### fix
 - organization commands
+
+
+## [1.3.0] - 2026-05-20
+### improve
+- Personality Update: /lumi with mood, motivation, lore. /choose, / insultme, rework dice: D6, D20, D100. 
