@@ -74,3 +74,8 @@
 ## [1.3.0] - 2026-05-20
 ### improve
 - Personality Update: /lumi with mood, motivation, lore. /choose, / insultme, rework dice: D6, D20, D100. 
+
+
+## [2.0.0] - 2026-05-21
+### improve
+-  replace SQLite3 > Prisma databse + Hosting 24/7
