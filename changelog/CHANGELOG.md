@@ -89,3 +89,13 @@
 ## [1.2.0] - 2026-05-22
 ### improve
 -  Added moderation system with Prisma, Added moderation case system, improve /lumi, /choose + hotfix (Fixed Prisma errors, Fixed guildSettings upsert system, Fixed Render deployment issues, Fixed weather command, Fixed Discord interaction errors, Fixed moderation case logs) + improve Added deploy commands script, Full migration to Prisma, logging system
+
+
+## [2.2.1] - 2026-05-22
+### fix
+-  Hotfix interactiion error handlig
+
+
+## [2.2.2] - 2026-05-22
+### fix
+-  Hotfix Weather
