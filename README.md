@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-🚧 Project Status: In active development • Not available 24/7
+🚧 Project Status: In active development 
 </p>
 
 ---
@@ -20,7 +20,6 @@
   <img src="https://img.shields.io/badge/Version-2.0.0-informational?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Status-In%20Development-yellow?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Slash%20Commands-Enabled-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Self--Hosted-purple?style=for-the-badge"/>
 </p>
 
 <p align="center">
