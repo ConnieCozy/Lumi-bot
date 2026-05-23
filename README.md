@@ -116,7 +116,7 @@ This is a personal amateur project built with passion and curiosity.
 
 Some features may break.
 Some ideas may change or disappear over time.
-Lumi is self-hosted and not available 24/7.
+~~Lumi is self-hosted and not available 24/7.~~
 
 ---
 
