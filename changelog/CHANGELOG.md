@@ -99,3 +99,8 @@
 ## [2.2.2] - 2026-05-22
 ### fix
 -  Hotfix Weather
+
+
+## [2.2.3] - 2026-05-23
+### fix
+- Hotfix Weather API, interactCreate
