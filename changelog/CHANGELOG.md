@@ -104,3 +104,8 @@
 ## [2.2.3] - 2026-05-23
 ### fix
 - Hotfix Weather API, interactCreate
+
+
+## [2.3.0] - 2026-05-23
+### improve
+-  starting  automatic slash command deployent
