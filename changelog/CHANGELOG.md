@@ -109,3 +109,8 @@
 ## [2.3.0] - 2026-05-23
 ### improve
 -  starting  automatic slash command deployent
+
+
+## [2.3.1] - 2026-05-24
+### fix
+-  Stability & Modernization Update: Replaced deprecated ephemeral: true, Migrated to MessageFlags.Ephemeral, Improved interaction error handling, Better protection against Discord API errors, Prepared internal systems for future updates
