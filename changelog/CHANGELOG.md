@@ -114,3 +114,8 @@
 ## [2.3.1] - 2026-05-24
 ### fix
 -  Stability & Modernization Update: Replaced deprecated ephemeral: true, Migrated to MessageFlags.Ephemeral, Improved interaction error handling, Better protection against Discord API errors, Prepared internal systems for future updates
+
+
+## [2.4.0] - 2026-05-25
+### improve
+- Lumi Bot v2.4.0 — Major Command Rework: Completely redesigned Help Menu, Weather Command Rework, Dice Command Rework, Internal Improvements
