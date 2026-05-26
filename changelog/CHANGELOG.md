@@ -119,3 +119,8 @@
 ## [2.4.0] - 2026-05-25
 ### improve
 - Lumi Bot v2.4.0 — Major Command Rework: Completely redesigned Help Menu, Weather Command Rework, Dice Command Rework, Internal Improvements
+
+
+## [2.4.1] - 2026-05-26
+### fix
+- Reworked weather system: Added city selection menu, Added FR → EN aliase,Improved API error handling,  Created weatherEmbed system, Cleaned interactionCreate
