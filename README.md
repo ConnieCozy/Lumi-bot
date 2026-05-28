@@ -82,6 +82,11 @@ Built for:
 
 ---
 
+## ⚙️Settings
+![lumi](assets/settings.png)
+
+---
+
 ## ⚡𝗟𝘂𝗺𝗶 
 ![lumi](assets/lumiinteraction.png)
 
