@@ -1,0 +1,137 @@
+# Lumi Bot - Project Version: 3.0.0
+
+## Package:
+ "@prisma/client": "^6.19.3",
+ "axios": "^1.16.1",
+ "discord.js": "^14.26.4",
+ "dotenv": "^17.4.2",
+ "express": "^5.2.1",
+ "prisma": "^6.19.3"
+
+# Online
+
+## Hosting:
+- Render
+## ping:
+- UptimeRobot
+## Database:
+- Neon ProstgreSQL
+
+# Bot Structure
+
+## Structure general:
+Lumi dev/
+├─ changelog/
+│ └─ CHANGELOG.md
+├─ node_modules/
+├─ prisma/
+│ ├─ migrations/
+│ │  ├─ 202605211130004_init/
+│ │  │ └─ migration.sql  
+│ │  ├─ migration_lock.toml 
+│ ├─ schema.prisma
+├─ src/
+├─ .env
+├─ gitattributes
+├─ gitignore
+├─ LICENSE
+├─ package-locl.json
+├─ packahe.json
+├─ README.md
+
+## Structure src:
+src/
+├─ commands/
+│ ├─ dev/
+│ │ └─ announceupdate.js
+│ ├─ fun/
+│ │ ├─ 8ball.js
+│ │ ├─ hack.js
+│ │ └─ slap.js  
+│ ├─ info/
+│ │ ├─ botinfo.js
+│ │ ├─ roleinfo.js
+│ │ ├─ serverinfo.js
+│ │ └─ userinfo.js
+│ ├─ logs/
+│ │ ├─ setautomodlogs.js
+│ │ ├─ setlogchannel.js
+│ │ ├─ toggleautomodlogs.js
+│ │ ├─ togglecommandlogs.js
+│ │ ├─ togglejoinlogs.js
+│ │ ├─ toggleleavelog.js
+│ │ ├─ togglememberlogs.js
+│ │ ├─ togglemessagedelete.js
+│ │ └─ togglemessageupdate.js
+│ ├─ lumi/
+│ │ ├─ choose.js
+│ │ ├─ insultme.js
+│ │ ├─ invite.js
+│ │ ├─ lumi.js
+│ │ ├─ latency.js
+│ │ ├─ stats.js
+│ │ └─ uptime.js
+│ ├─ moderation/
+│ │ ├─ ban.js
+│ │ ├─ infractions.js
+│ │ ├─ kick.js
+│ │ ├─ mute.js
+│ │ ├─ unban.js
+│ │ ├─ unmute.js
+│ │ ├─ unwarn.js
+│ │ ├─ warn.js
+│ │ └─ warnings.js
+│ ├─ setting/
+│ │ ├─ autmod.js  
+│ │ ├─ modtest.js
+│ │ ├─ setannouncementchennel.js
+│ │ ├─ setjoininterval.js
+│ │ ├─ setjoinlimit.js
+│ │ ├─ setmodrole.js
+│ │ ├─ setspaminterval.js
+│ │ ├─ setspamlimit.js
+│ │ ├─ slowmode.js
+│ │ ├─ toggleantiraid.js
+│ │ └─ toggleantispam.js
+│ ├─ staff/
+│ │ ├─ clear.js
+│ │ └─ say.js
+│ ├─ utility/
+│ │ ├─ avatar.js
+│ │ ├─ dice.js
+│ │ ├─ hellp.js
+│ │ └─ weather.js
+├─ config/
+│ └─ config.js 
+├─ events/
+│ ├─ client/
+│ │ └─ ready.js
+│ ├─ guild/
+│ │ ├─ antiRaid.js
+│ │ ├─ antiSpam.js
+│ │ ├─ guildMemberAdd.js
+│ │ └─ guildMemberRemove.js
+│ ├─ interaction/
+│ │ └─ interactCreate.js
+│ └─ messages/
+│ │ ├─ messageCreate.js
+│ │ ├─ messageDelete.js
+│ │ └─ messageUpdate.js
+├─ handlers/
+│ ├─ commandHandler.js
+│ └─ eventHandler.js
+├─ lib/
+│ └─ prisma.js
+├─ scripts/
+│ ├─ changelog.js
+│ ├─ clearCommands.js
+│ └─ deploy-commands.js
+├─ utils/
+│ ├─ checkModRole.js
+│ ├─ createCase.js
+│ ├─ helpEmbeds.js
+│ ├─ logger.js
+│ ├─ sendLog.js
+│ ├─ setStatus.js
+│ └─ weatherEmbeds.js
+└─ index.js
