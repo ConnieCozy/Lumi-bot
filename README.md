@@ -17,7 +17,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
   <img src="https://img.shields.io/badge/Discord-Bot-5865F2?style=for-the-badge&logo=discord&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Version-2.4.1-informational?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Version-3.0.0-informational?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Status-In%20Development-yellow?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Slash%20Commands-Enabled-blue?style=for-the-badge"/>
 </p>
