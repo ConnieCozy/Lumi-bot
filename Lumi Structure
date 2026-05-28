@@ -1,4 +1,4 @@
-# Lumi Bot - Project Version: 3.0.0
+# Lumi Bot - Project Version: 3.1.0
 
 ## Package:
  "@prisma/client": "^6.19.3",
@@ -60,7 +60,6 @@ src/
 │ │ ├─ togglecommandlogs.js
 │ │ ├─ togglejoinlogs.js
 │ │ ├─ toggleleavelog.js
-│ │ ├─ togglememberlogs.js
 │ │ ├─ togglemessagedelete.js
 │ │ └─ togglemessageupdate.js
 │ ├─ lumi/
@@ -81,7 +80,7 @@ src/
 │ │ ├─ unwarn.js
 │ │ ├─ warn.js
 │ │ └─ warnings.js
-│ ├─ setting/
+│ ├─ settings/
 │ │ ├─ autmod.js  
 │ │ ├─ modtest.js
 │ │ ├─ setannouncementchennel.js
@@ -99,7 +98,7 @@ src/
 │ ├─ utility/
 │ │ ├─ avatar.js
 │ │ ├─ dice.js
-│ │ ├─ hellp.js
+│ │ ├─ help.js
 │ │ └─ weather.js
 ├─ config/
 │ └─ config.js 
