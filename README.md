@@ -134,4 +134,6 @@ Some ideas may change or disappear over time.
 - 🇫🇷 French language bot
 
 # 💀 HexBoon Development
-![logoteam](assets/hexboonteam.png)
+<p align="center">
+  <img src="assets/hexboonteam.png" width="200"/>
+</p>
