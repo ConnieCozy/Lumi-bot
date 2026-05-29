@@ -133,7 +133,6 @@ Some ideas may change or disappear over time.
 - 📩 To invite the bot: ask me
 - 🇫🇷 French language bot
 
-# 💀 HexBoon Development
 <p align="center">
-  <img src="assets/hexboonteam.png" width="200"/>
+  <img src="assets/hexboonteam.png" width="300"/>
 </p>
