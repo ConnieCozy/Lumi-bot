@@ -132,3 +132,6 @@ Some ideas may change or disappear over time.
 - 📢 Updates: [Github](https://github.com/ConnieCozy/Lumi-bot.git)
 - 📩 To invite the bot: ask me
 - 🇫🇷 French language bot
+
+# 💀 HexBoon Development
+![logoteam](assets/hexboonteam.png)
