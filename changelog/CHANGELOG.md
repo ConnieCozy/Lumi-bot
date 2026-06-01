@@ -149,3 +149,8 @@
 ## [3.2.2] - 2026-06-01
 ### fix
 - Stability and security update: fixed moderation permission checks, stabilized AutoMod and anti-raid handling, added GuildSettings cache, improved event error isolation, added Prisma postinstall generation, prevented automatic command deployment on startup, and added safer moderation guards for mute, unmute and warn.
+
+
+## [3.2.3] - 2026-06-01
+### improve
+- Stability polish update: added a shared command loader for startup and deployments, added a Render health endpoint, improved graceful shutdown, added `npm run check`, documented maintenance commands, made `/say` safer against unwanted mentions, improved `/clear` permission checks, blocked slash commands in DMs, and improved weather/deploy configuration errors.
