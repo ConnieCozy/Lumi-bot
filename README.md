@@ -83,18 +83,6 @@ Lumi est construite avec :
 
 ---
 
-## 🖼️ Aperçu
-
-<p align="center">
-  <img src="assets/lumi-logo.png" width="220" alt="Lumi logo">
-</p>
-
-<p align="center">
-  <img src="assets/lumi-reference.png" width="180" alt="Lumi visual reference">
-</p>
-
----
-
 ## 🗺️ Roadmap
 
 - [x] Commandes slash
