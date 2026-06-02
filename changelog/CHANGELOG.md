@@ -156,6 +156,11 @@
 - Stability polish update: added a shared command loader for startup and deployments, added a Render health endpoint, improved graceful shutdown, added `npm run check`, documented maintenance commands, made `/say` safer against unwanted mentions, improved `/clear` permission checks, blocked slash commands in DMs, and improved weather/deploy configuration errors.
 
 
+## [3.2.5] - 2026-06-02
+### improve
+- Visual identity polish: added the new Lumi asset pack, removed outdated image assets, introduced the Lumi footer badge for embeds, and documented the optional footer icon URL configuration.
+
+
 ## [3.2.4] - 2026-06-01
 ### fix
 - Maintenance and dependency cleanup: refreshed private architecture docs, marked image assets as binary for Git, and resolved npm audit warnings by overriding vulnerable indirect dependencies.
