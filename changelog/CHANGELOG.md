@@ -174,3 +174,8 @@
 ## [3.2.7] - 2026-06-03
 ### fix
 - Moderation hardening and AutoMod cleanup: added shared target validation for moderation actions, blocked unsafe targets through role hierarchy checks, and cleaned temporary AutoMod tracking maps after inactivity.
+
+
+## [3.2.8] - 2026-06-03
+### fix
+- Discord interaction hardening: centralized safe ephemeral replies, ignored expired or already acknowledged interactions cleanly, limited commands to guild contexts by default, and reduced internal error logs to lower sensitive information exposure.
