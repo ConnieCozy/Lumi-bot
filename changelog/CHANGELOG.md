@@ -165,6 +165,12 @@
 ### fix
 - Patch cleanup and safety update: centralized embed footers without duplicated lightning text, added Lumi assistant v2 assets, removed non-approved legacy visual assets, strengthened release documentation, sanitized/truncated Discord log embeds, protected console logs from obvious secret leaks, and limited moderation reason inputs.
 
+
 ## [3.2.4] - 2026-06-01
 ### fix
 - Maintenance and dependency cleanup: refreshed private architecture docs, marked image assets as binary for Git, and resolved npm audit warnings by overriding vulnerable indirect dependencies.
+
+
+## [3.2.7] - 2026-06-03
+### fix
+- Moderation hardening and AutoMod cleanup: added shared target validation for moderation actions, blocked unsafe targets through role hierarchy checks, and cleaned temporary AutoMod tracking maps after inactivity.
