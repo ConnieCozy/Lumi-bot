@@ -188,3 +188,8 @@
 ## [3.2.9] - 2026-06-04
 ### fix
 - Security and reliability hardening: added safe error logging across runtime handlers, protected staff and dev message sends against unsafe mentions and missing permissions, improved command cooldown cleanup, guarded AutoMod timeout failures, sanitized moderation case reasons, and made shutdown/login failures safer.
+
+
+## [3.3.0] - 2026-06-04
+### improve
+- Lumi UX and personality update: removed low-value novelty commands, merged bot statistics into an interactive `/botinfo` menu, moved choosing into `/lumi choose`, expanded Lumi's soft sarcastic futuristic personality, polished help/settings/log messages in French, and added safer settings/log channel checks plus anti-spam and anti-raid value limits.
