@@ -193,3 +193,8 @@
 ## [3.3.0] - 2026-06-04
 ### improve
 - Lumi UX and personality update: removed low-value novelty commands, merged bot statistics into an interactive `/botinfo` menu, moved choosing into `/lumi choose`, expanded Lumi's soft sarcastic futuristic personality, polished help/settings/log messages in French, and added safer settings/log channel checks plus anti-spam and anti-raid value limits.
+
+
+## [3.3.1] - 2026-06-04
+### fix
+- Maintenance patch: moved the private update announcement owner check to `OWNER_USER_ID`, documented the new environment variable and polished AutoMod/anti-raid wording.
