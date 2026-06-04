@@ -9,16 +9,16 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-3.3.1-4AA3FF?style=for-the-badge" alt="Version 3.3.0">
+  <img src="https://img.shields.io/badge/Version-3.4.0-4AA3FF?style=for-the-badge" alt="Version 3.4.0">
   <img src="https://img.shields.io/badge/Node.js-powered-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
   <img src="https://img.shields.io/badge/Discord.js-v14-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord.js v14">
   <img src="https://img.shields.io/badge/Prisma-ready-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma">
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Langue-FR%20first-0055FF?style=for-the-badge" alt="French first">
-  <img src="https://img.shields.io/badge/Personnalite-douce%20%2B%20sarcastique-FFD43B?style=for-the-badge" alt="Personnalite douce et sarcastique">
-  <img src="https://img.shields.io/badge/Energie-electric-FFE066?style=for-the-badge" alt="Electric energy">
+  <img src="https://img.shields.io/badge/Langue-FR%20first-0055FF?style=for-the-badge" alt="Langue FR first">
+  <img src="https://img.shields.io/badge/Mood-douce%20%2B%20sarcastique-FFD43B?style=for-the-badge" alt="Mood douce et sarcastique">
+  <img src="https://img.shields.io/badge/Energy-electric-FFE066?style=for-the-badge" alt="Energy electric">
   <img src="https://img.shields.io/badge/Status-active%20development-FFB7D5?style=for-the-badge" alt="Active development">
 </p>
 
@@ -64,9 +64,9 @@ Au-delà des commandes, Lumi garde une identité reconnaissable : douce, drôle,
 
 Lumi est en développement actif.
 
-Le projet avance par étapes : d'abord la stabilité, ensuite l'expérience utilisateur, puis les fonctionnalités communautaires plus avancées.
+Le projet avance par étapes : stabilité, expérience utilisateur, puis fonctionnalités communautaires plus avancées.
 
-Chaque version sert à rendre Lumi plus fiable, plus agréable, et plus facile à maintenir sur le long terme.
+Chaque version sert à rendre Lumi plus fiable, plus agréable et plus facile à maintenir sur le long terme.
 
 ---
 
