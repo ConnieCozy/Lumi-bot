@@ -198,3 +198,8 @@
 ## [3.3.1] - 2026-06-04
 ### fix
 - Maintenance patch: moved the private update announcement owner check to `OWNER_USER_ID`, documented the new environment variable and polished AutoMod/anti-raid wording.
+
+
+## [3.4.0] - 2026-06-04
+### improve
+- Command UX update: modernized moderation command wording and embeds, added a dedicated moderation footer, restored missing moderation logging for `/kick`, normalized visible slash option names such as `/help command`, `/userinfo user` and `/unban user_id`, improved slowmode permission handling, and polished small settings/help inconsistencies.
