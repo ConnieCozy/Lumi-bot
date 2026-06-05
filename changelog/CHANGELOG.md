@@ -203,3 +203,8 @@
 ## [3.4.0] - 2026-06-04
 ### improve
 - Command UX update: modernized moderation command wording and embeds, added a dedicated moderation footer, restored missing moderation logging for `/kick`, normalized visible slash option names such as `/help command`, `/userinfo user` and `/unban user_id`, improved slowmode permission handling, and polished small settings/help inconsistencies.
+
+
+## [3.5.0] - 2026-06-05
+### add
+- Fun and personality update: added `/fortune`, plus interactive `/rps` and `/tictactoe` commands with Lumi-flavored responses, button-based gameplay, basic session protection and optional duels against another member, polished `/lumi choose` wording, and removed the duplicate API latency entry from `/botinfo` statistics.
