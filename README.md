@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-3.5.0-4AA3FF?style=for-the-badge" alt="Version 3.4.0">
+  <img src="https://img.shields.io/badge/Version-3.6.0-4AA3FF?style=for-the-badge" alt="Version 3.6.0">
   <img src="https://img.shields.io/badge/Node.js-powered-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
   <img src="https://img.shields.io/badge/Discord.js-v14-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord.js v14">
   <img src="https://img.shields.io/badge/Prisma-ready-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma">
@@ -26,11 +26,11 @@
 
 ## ✨ Qui est Lumi ?
 
-Lumi est un bot Discord francophone créé par **ConnieCozy** et développé avec **HexBoon Development**.
+Lumi est une assistante IA Discord francophone créée par **ConnieCozy** et développée avec **HexBoon Development**.
 
-Elle est pensée pour accompagner une communauté sur le long terme : modération, logs, utilitaires, AutoMod, commandes fun et petites interactions qui donnent plus de vie au serveur.
+Elle est pensée pour accompagner une communauté sur le long terme : modération, logs, utilitaires, AutoMod, commandes fun, outils d'assistance et petites interactions qui donnent plus de vie au serveur.
 
-Lumi n'est pas juste un bot à commandes. Elle a son ton : douce, drôle, parfois sarcastique, toujours un peu électrique.
+Lumi n'est pas juste un bot à commandes. Dans son lore, c'est une petite assistante IA douce, drôle, parfois sarcastique, toujours un peu électrique.
 
 > Short English summary: Lumi is a French Discord bot focused on moderation, logs, utility commands and long-term community tools.
 
@@ -56,7 +56,7 @@ Lumi propose aussi des commandes pratiques et fun pour rendre le serveur plus vi
 
 ### ⚡ Une vraie personnalité
 
-Au-delà des commandes, Lumi garde une identité reconnaissable : douce, drôle, un peu sarcastique, et toujours branchée sur le courant.
+Au-delà des commandes, Lumi garde une identité reconnaissable : une assistante IA douce, drôle, un peu sarcastique, et toujours branchée sur le courant.
 
 ---
 
@@ -91,11 +91,13 @@ Lumi est construite avec :
 - [x] AutoMod
 - [x] Stabilisation et sécurité v3.2
 - [x] UX commandes et personnalité v3.3
+- [x] Lumi Assistant Light v3.6
+- [ ] Logs de modération et visibilité staff v3.7
 - [ ] Documentation utilisateur complète
 - [ ] Audit des commandes à garder, modifier ou retirer
 - [ ] Expérience utilisateur complète autour de Lumi
 - [ ] Outils communautaires avancés
-- [ ] Fonctionnalités IA légères
+- [ ] Fonctions assistant sans IA payante
 - [ ] Dashboard web
 
 ---
