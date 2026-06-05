@@ -208,3 +208,8 @@
 ## [3.5.0] - 2026-06-05
 ### add
 - Fun and personality update: added `/fortune`, plus interactive `/rps` and `/tictactoe` commands with Lumi-flavored responses, button-based gameplay, basic session protection and optional duels against another member, polished `/lumi choose` wording, and removed the duplicate API latency entry from `/botinfo` statistics.
+
+
+## [3.6.0] - 2026-06-05
+### add
+- Lumi Assistant update: added `/checklist`, `/pulse`, `/spark` and admin-only `/feedback`, refreshed the Lumi help category wording, clarified Lumi's AI assistant lore in docs and personality text, documented `FEEDBACK_CHANNEL_ID`, and introduced a centralized permission matrix for sensitive slash commands.
