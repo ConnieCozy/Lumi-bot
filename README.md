@@ -17,7 +17,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Langue-FR%20first-0055FF?style=for-the-badge" alt="Langue FR first">
-  <img src="https://img.shields.io/badge/Mood-douce%20%2B%20sarcastique-FFD43B?style=for-the-badge" alt="Mood Sweet and sarcastic">
+  <img src="https://img.shields.io/badge/Mood-sweet%20%2B%20sarcastic-FFD43B?style=for-the-badge" alt="Mood Sweet and sarcastic">
   <img src="https://img.shields.io/badge/Energy-electric-FFE066?style=for-the-badge" alt="Energy electric">
   <img src="https://img.shields.io/badge/Status-active%20development-FFB7D5?style=for-the-badge" alt="Active development">
 </p>
