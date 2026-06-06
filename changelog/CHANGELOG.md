@@ -223,3 +223,8 @@
 ## [3.8.0] - 2026-06-06
 ### add
 - Welcome and goodbye system: added configurable welcome/goodbye channels, automatic member greeting embeds, admin-only test and clear commands, connected the new server greeting setup to `/checklist` and `/pulse`, added paginated `/help` categories for long command lists, and kept community links centralized in `/community` instead of duplicating them in `/help`.
+
+
+## [4.0.0] - 2026-06-06
+### add
+- Internal configuration dashboard update: replaced duplicated toggle/set/test/diagnostic commands with a unified `/configuration` menu for general server settings, log status, welcome/goodbye testing and AutoMod status, added in-menu ON/OFF buttons, channel and role selectors, in-menu log delivery tests, reduced visible slash command clutter, connected member log status to `/pulse`, centralized embed delivery permission checks for log and greeting channels, and hardened log delivery with channel fetch and permission checks before sending embeds.
