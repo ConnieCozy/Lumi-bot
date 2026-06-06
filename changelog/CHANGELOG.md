@@ -213,3 +213,8 @@
 ## [3.6.0] - 2026-06-05
 ### add
 - Lumi Assistant update: added `/checklist`, `/pulse`, `/spark` and admin-only `/feedback`, refreshed the Lumi help category wording, clarified Lumi's AI assistant lore in docs and personality text, documented `FEEDBACK_CHANNEL_ID`, and introduced a centralized permission matrix for sensitive slash commands.
+
+
+## [3.7.0] - 2026-06-06
+### add
+- Moderation logs visibility update: added `/togglemoderationlogs`, connected moderation logs back into Lumi's assistant checklist, and kept moderation log controls admin-only for safer server configuration.
