@@ -218,3 +218,8 @@
 ## [3.7.0] - 2026-06-06
 ### add
 - Moderation logs visibility update: added `/togglemoderationlogs`, connected moderation logs back into Lumi's assistant checklist, and kept moderation log controls admin-only for safer server configuration.
+
+
+## [3.8.0] - 2026-06-06
+### add
+- Welcome and goodbye system: added configurable welcome/goodbye channels, automatic member greeting embeds, admin-only test and clear commands, connected the new server greeting setup to `/checklist` and `/pulse`, added paginated `/help` categories for long command lists, and kept community links centralized in `/community` instead of duplicating them in `/help`.
