@@ -228,3 +228,8 @@
 ## [4.0.0] - 2026-06-06
 ### add
 - Internal configuration dashboard update: replaced duplicated toggle/set/test/diagnostic commands with a unified `/configuration` menu for general server settings, log status, welcome/goodbye testing and AutoMod status, added in-menu ON/OFF buttons, channel and role selectors, in-menu log delivery tests, reduced visible slash command clutter, connected member log status to `/pulse`, centralized embed delivery permission checks for log and greeting channels, and hardened log delivery with channel fetch and permission checks before sending embeds.
+
+
+## [4.1.0] - 2026-06-06
+### improve
+- Moderation dashboard and data cleanup update: added a unified `/moderation` menu for sanctions, sanction removals, moderation records and slowmode, moved anti-spam and anti-raid limit/interval tuning into `/configuration`, made `/help` and `/botinfo` ephemeral without close buttons, fixed custom moderation-role access by relying on Lumi's internal guard instead of native Discord command permissions, removed obsolete duplicated moderation/settings commands, dropped the unused `UserLevels` XP/level model and migration target, and clarified command logs as an advanced audit option to avoid noisy log channels.
