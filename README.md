@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-4.1.0-4AA3FF?style=for-the-badge" alt="Version 4.1.0">
+  <img src="https://img.shields.io/badge/Version-4.2.0-4AA3FF?style=for-the-badge" alt="Version 4.2.0">
   <img src="https://img.shields.io/badge/Node.js-powered-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
   <img src="https://img.shields.io/badge/Discord.js-v14-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord.js v14">
   <img src="https://img.shields.io/badge/Prisma-ready-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma">
@@ -97,6 +97,8 @@ Lumi est construite avec :
 - [x] Dashboard Discord interne de configuration v4.0
 - [x] Panneau de modération concentré v4.1
 - [x] Nettoyage XP/level pour alléger Neon v4.1
+- [x] Outils staff et UX jeux v4.2
+- [x] Guide d'arrivée serveur v4.2
 - [ ] Documentation utilisateur complète
 - [ ] Audit des commandes à garder, modifier ou retirer
 - [ ] Expérience utilisateur complète autour de Lumi
