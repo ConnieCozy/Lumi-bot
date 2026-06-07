@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-4.3.0-4AA3FF?style=for-the-badge" alt="Version 4.3.0">
+  <img src="https://img.shields.io/badge/Version-4.4.0-4AA3FF?style=for-the-badge" alt="Version 4.4.0">
   <img src="https://img.shields.io/badge/Node.js-powered-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
   <img src="https://img.shields.io/badge/Discord.js-v14-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord.js v14">
   <img src="https://img.shields.io/badge/Prisma-ready-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma">
@@ -101,6 +101,7 @@ Lumi est construite avec :
 - [x] Guide d'arrivée serveur v4.2
 - [x] Logs serveur et séries BO3 en mémoire v4.3
 - [x] Nettoyage des données inutilisées pour Neon v4.3
+- [x] Gestion staff sécurisée des rôles v4.4
 - [ ] Documentation utilisateur complète
 - [ ] Audit des commandes à garder, modifier ou retirer
 - [ ] Parcours utilisateur Lumi plus clair : aide, configuration, onboarding et commandes regroupées
@@ -132,6 +133,7 @@ Consultez [LICENSE.md](LICENSE.md) pour les conditions complètes.
 <p align="center">
   ⚡ Lumi veille. Probablement avec un peu trop d'énergie.
 </p>
+
 
 </p>
 
