@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-4.2.0-4AA3FF?style=for-the-badge" alt="Version 4.2.0">
+  <img src="https://img.shields.io/badge/Version-4.3.0-4AA3FF?style=for-the-badge" alt="Version 4.3.0">
   <img src="https://img.shields.io/badge/Node.js-powered-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
   <img src="https://img.shields.io/badge/Discord.js-v14-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord.js v14">
   <img src="https://img.shields.io/badge/Prisma-ready-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma">
@@ -99,9 +99,11 @@ Lumi est construite avec :
 - [x] Nettoyage XP/level pour alléger Neon v4.1
 - [x] Outils staff et UX jeux v4.2
 - [x] Guide d'arrivée serveur v4.2
+- [x] Logs serveur et séries BO3 en mémoire v4.3
+- [x] Nettoyage des données inutilisées pour Neon v4.3
 - [ ] Documentation utilisateur complète
 - [ ] Audit des commandes à garder, modifier ou retirer
-- [ ] Expérience utilisateur complète autour de Lumi
+- [ ] Parcours utilisateur Lumi plus clair : aide, configuration, onboarding et commandes regroupées
 - [ ] Outils communautaires avancés
 - [ ] Fonctions assistant sans IA payante
 - [ ] Dashboard web
@@ -112,6 +114,7 @@ Lumi est construite avec :
 
 - 🎮 Twitch : [ConnieCozy](https://www.twitch.tv/conniecozy)
 - 💬 Support Discord : [Lumi Support](https://discord.gg/wJ8xjWJ2Nd)
+- ⚡ Ajouter Lumi : [Invitation Discord](https://discord.com/oauth2/authorize?client_id=1349552568069787698&permissions=8&integration_type=0&scope=bot+applications.commands)
 - ⚡ Projet : développé avec soin par **ConnieCozy** et **HexBoon Development**
 
 ---
@@ -128,6 +131,8 @@ Consultez [LICENSE.md](LICENSE.md) pour les conditions complètes.
 
 <p align="center">
   ⚡ Lumi veille. Probablement avec un peu trop d'énergie.
+</p>
+
 </p>
 
 
