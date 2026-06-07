@@ -243,3 +243,8 @@
 ## [4.3.0] - 2026-06-07
 ### add
 - Server visibility and free-plan cleanup update: added a `/configuration` server logs toggle for role, channel, category, guild profile and cached user profile changes using the existing main log channel, added temporary BO3 score tracking for RPS and TicTacToe rematches without storing game scores in Neon, removed unused ticket settings and the legacy member log column from Prisma, added read-only Neon helper views for channel, log and AutoMod settings, and refreshed the public README with Lumi's invite link and clearer roadmap wording.
+
+
+## [4.4.0] - 2026-06-07
+### add
+- Staff role management update: added a secured `/staff` members panel with member and role selectors, hierarchy checks, managed-role and administrator-role safeguards, add/remove role actions, private staff feedback, server log entries for role changes made through the panel, clearer staff help wording, and more readable server log emojis for role, channel, permission, guild and profile events.
