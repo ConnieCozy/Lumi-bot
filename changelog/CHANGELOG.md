@@ -238,3 +238,8 @@
 ## [4.2.0] - 2026-06-07
 ### add
 - Staff, Lumi and game UX update: replaced standalone staff utilities with a unified `/staff` panel for status, messages, uploaded-file embed drafts, multi-section embed fields and cleanup, kept `/lumi` as lightweight public subcommands while improving its help/usage visibility, added a short `guildCreate` onboarding guide when Lumi joins a server, logged staff cleanup through message delete logs, added shared emoji constants for repeated status/action markers, removed the obsolete settings category from help, simplified `/configuration` status labels with colored dots, and added safer RPS/TicTacToe duel flows with accept/decline buttons, visible inactivity expiry and rematch buttons.
+
+
+## [4.3.0] - 2026-06-07
+### add
+- Server visibility and free-plan cleanup update: added a `/configuration` server logs toggle for role, channel, category, guild profile and cached user profile changes using the existing main log channel, added temporary BO3 score tracking for RPS and TicTacToe rematches without storing game scores in Neon, removed unused ticket settings and the legacy member log column from Prisma, added read-only Neon helper views for channel, log and AutoMod settings, and refreshed the public README with Lumi's invite link and clearer roadmap wording.
