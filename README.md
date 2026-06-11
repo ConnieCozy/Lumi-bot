@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-4.4.0-4AA3FF?style=for-the-badge" alt="Version 4.4.0">
+  <img src="https://img.shields.io/badge/Version-4.5.0-4AA3FF?style=for-the-badge" alt="Version 4.5.0">
   <img src="https://img.shields.io/badge/Node.js-powered-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
   <img src="https://img.shields.io/badge/Discord.js-v14-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord.js v14">
   <img src="https://img.shields.io/badge/Prisma-ready-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma">
@@ -102,6 +102,7 @@ Lumi est construite avec :
 - [x] Logs serveur et séries BO3 en mémoire v4.3
 - [x] Nettoyage des données inutilisées pour Neon v4.3
 - [x] Gestion staff sécurisée des rôles v4.4
+- [x] Logs précis, docs publiques et AutoMod plus clair v4.5
 - [ ] Documentation utilisateur complète
 - [ ] Audit des commandes à garder, modifier ou retirer
 - [ ] Parcours utilisateur Lumi plus clair : aide, configuration, onboarding et commandes regroupées
@@ -120,13 +121,23 @@ Lumi est construite avec :
 
 ---
 
-## 🔒 Licence et protection
+## 📚 Documentation
 
-Lumi, son nom, son identité visuelle, ses assets et son code sont protégés.
+- [Privacy Policy](docs/PRIVACY_POLICY.md)
+- [Terms of Service](docs/TERMS_OF_SERVICE.md)
+- [Data Requests](docs/DATA_REQUESTS.md)
 
-Ce projet est public pour consultation uniquement lorsque publié sur un dépôt vitrine. Toute copie, modification, redistribution ou réutilisation du code, des assets ou du personnage Lumi nécessite une autorisation explicite.
+---
 
-Consultez [LICENSE.md](LICENSE.md) pour les conditions complètes.
+## 🔒 Protection de Lumi
+
+Ce dépôt sert de vitrine publique pour présenter Lumi, son évolution et sa documentation.
+
+Lumi reste une création originale de **ConnieCozy** avec **HexBoon Development**. Son nom, son personnage, son identité visuelle, ses images, ses textes propres et son code ne sont pas libres d'utilisation.
+
+Il est interdit de copier, réutiliser, modifier, redistribuer ou revendiquer Lumi, ses assets, son nom ou son code sans autorisation explicite.
+
+Le fichier `LICENSE` du dépôt public précise les conditions complètes.
 
 ---
 
@@ -134,8 +145,6 @@ Consultez [LICENSE.md](LICENSE.md) pour les conditions complètes.
   ⚡ Lumi veille. Probablement avec un peu trop d'énergie.
 </p>
 
-
-</p>
 
 
 
