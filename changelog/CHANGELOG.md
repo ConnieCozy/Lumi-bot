@@ -258,3 +258,8 @@
 ## [4.6.0] - 2026-06-12
 ### add
 - Free-plan and Fish v2 update: added a configurable guild capacity guard with a default 25-server limit, polite over-capacity onboarding refusal and automatic cleanup, exposed live capacity in `/botinfo`, `/community` and `/pulse`, reworked `/fish` into `catch`, `top` and `profile` subcommands with harder rarity odds, weighted catches, weekly and permanent server rankings plus previous-week winner display without storing full catch history, added automatic cleanup for inactive fish records, added local Lumi GIF reactions through `/lumi react`, updated Prisma fish records for lightweight weekly stats, refreshed free-plan documentation and kept the public README aligned with v4.6.0.
+
+
+## [4.6.1] - 2026-06-12
+### fix
+- Fish data cleanup patch: removed stored fish spot columns now that fishing spots are narrative-only, cleaned fish profile output to avoid displaying unused spot data, removed non-approved Lumi reaction GIF assets from the release set, and aligned public data documentation with the lighter Fish v2 storage model.
