@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-4.5.0-4AA3FF?style=for-the-badge" alt="Version 4.5.0">
+  <img src="https://img.shields.io/badge/Version-4.6.0-4AA3FF?style=for-the-badge" alt="Version 4.6.0">
   <img src="https://img.shields.io/badge/Node.js-powered-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
   <img src="https://img.shields.io/badge/Discord.js-v14-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord.js v14">
   <img src="https://img.shields.io/badge/Prisma-ready-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma">
@@ -68,6 +68,8 @@ Le projet avance par étapes : stabilité, expérience utilisateur, puis fonctio
 
 Chaque version sert à rendre Lumi plus fiable, plus agréable et plus facile à maintenir sur le long terme.
 
+Pendant la phase Render/Neon gratuite, Lumi fonctionne avec une limite volontaire de **25 serveurs** afin de rester stable, légère et maintenable.
+
 ---
 
 ## 🧰 Stack technique
@@ -103,6 +105,7 @@ Lumi est construite avec :
 - [x] Nettoyage des données inutilisées pour Neon v4.3
 - [x] Gestion staff sécurisée des rôles v4.4
 - [x] Logs précis, docs publiques et AutoMod plus clair v4.5
+- [x] Pêche hebdomadaire, réactions GIF et limite serveur free-plan v4.6
 - [ ] Documentation utilisateur complète
 - [ ] Audit des commandes à garder, modifier ou retirer
 - [ ] Parcours utilisateur Lumi plus clair : aide, configuration, onboarding et commandes regroupées
