@@ -1,6 +1,6 @@
 # Lumi terms of service
 
-Dernière mise à jour : 2026-06-11
+Dernière mise à jour : 2026-06-12
 
 Ces conditions décrivent les règles d'utilisation de Lumi.
 
@@ -41,6 +41,8 @@ Lumi est fournie en développement actif.
 
 Le bot peut être indisponible temporairement en cas de maintenance, incident Discord, hébergement, base de données ou mise à jour.
 
+Pendant la phase Render/Neon gratuite, Lumi peut limiter le nombre de serveurs acceptés afin de rester stable. Si la capacité est atteinte, Lumi peut refuser une nouvelle invitation, prévenir le serveur concerné puis le quitter automatiquement.
+
 ## Propriété
 
 Lumi, son nom, son personnage, son identité visuelle, ses textes propres, ses assets et son code sont protégés.
@@ -60,3 +62,4 @@ La politique de confidentialité est disponible ici :
 Pour une question, un bug ou une demande, utilisez le serveur support Lumi :
 
 https://discord.gg/wJ8xjWJ2Nd
+
