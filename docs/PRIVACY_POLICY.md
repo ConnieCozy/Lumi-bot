@@ -17,7 +17,7 @@ Lumi peut traiter les données suivantes :
 - IDs de modérateurs ayant effectué une action ;
 - raisons, types, durées et dates des cas de modération ;
 - réglages AutoMod, logs, bienvenue, départ et configuration serveur ;
-- records de pêche : serveur, utilisateur, meilleur score permanent, meilleur score hebdomadaire, résultat de la semaine précédente, meilleure capture, rareté, spot narratif, poids et compteurs de captures ;
+- records de pêche : serveur, utilisateur, meilleur score permanent, meilleur score hebdomadaire, résultat de la semaine précédente, meilleure capture, rareté, poids et compteurs de captures ;
 - contenu transmis volontairement via une commande de feedback.
 
 Lumi ne stocke pas de système XP, économie ou profil social permanent dans la version actuelle.
@@ -81,4 +81,5 @@ Le code public de Lumi sert uniquement de vitrine et ne doit pas contenir de sec
 Pour une question ou une demande, utilisez le serveur support Lumi :
 
 https://discord.gg/wJ8xjWJ2Nd
+
 
