@@ -253,3 +253,8 @@
 ## [4.5.0] - 2026-06-11
 ### add
 - Server visibility and public documentation update: added more precise role, channel, guild, member and message update logs with safer long-message previews, routed AutoMod logs to the dedicated AutoMod log channel when configured, added an anti-spam ignored channel setting in `/configuration`, clarified AutoMod protection versus AutoMod log toggles for Neon and UX readability, added automatic guild data cleanup when Lumi leaves a server, added periodic presence refresh for long-running hosting, introduced the `/fish` command with fishing spots, rarity tiers, capture scores, lightweight personal records and a server Top 3, updated `/dice` critical result rules for D20 and D100, improved `/roleinfo` and detailed `/help` output, added mobile emoji guidance for staff messages, linked public documents from `/community`, added privacy, terms and data request documentation, and refreshed the public README protection wording.
+
+
+## [4.6.0] - 2026-06-12
+### add
+- Free-plan and Fish v2 update: added a configurable guild capacity guard with a default 25-server limit, polite over-capacity onboarding refusal and automatic cleanup, exposed live capacity in `/botinfo`, `/community` and `/pulse`, reworked `/fish` into `catch`, `top` and `profile` subcommands with harder rarity odds, weighted catches, weekly and permanent server rankings plus previous-week winner display without storing full catch history, added automatic cleanup for inactive fish records, added local Lumi GIF reactions through `/lumi react`, updated Prisma fish records for lightweight weekly stats, refreshed free-plan documentation and kept the public README aligned with v4.6.0.
