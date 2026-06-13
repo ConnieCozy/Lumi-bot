@@ -263,3 +263,8 @@
 ## [4.6.1] - 2026-06-12
 ### fix
 - Fish data cleanup patch: removed stored fish spot columns now that fishing spots are narrative-only, cleaned fish profile output to avoid displaying unused spot data, removed non-approved Lumi reaction GIF assets from the release set, and aligned public data documentation with the lighter Fish v2 storage model.
+
+
+## [5.0.0] - 2026-06-13
+### add
+- Premium private assistant direction update: repositioned Lumi as a limited premium private AI assistant, changed the default capacity to 5 guilds, added a maximum guild member guard, introduced readable guild metadata with guild names, owner IDs, member counts, access status, trial expiration and last-seen timestamps, added code-based `/access` trials, added owner-only `/serveradmin` listing, approval and leave cleanup tools, blocked non-approved guilds from using normal commands during pending or expired access states, added feedback-channel notifications for private access requests, added delayed cleanup for pending guilds without activation, refreshed community, pulse, bot info, README and public data documentation, renamed the internal maintenance README to avoid confusion with the public README, added dynamic presence capacity text, and stored lightweight user/moderator tags on new moderation cases for better readable records.
