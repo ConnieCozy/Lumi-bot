@@ -268,3 +268,8 @@
 ## [5.0.0] - 2026-06-13
 ### add
 - Premium private assistant direction update: repositioned Lumi as a limited premium private AI assistant, changed the default capacity to 5 guilds, added a maximum guild member guard, introduced readable guild metadata with guild names, owner IDs, member counts, access status, trial expiration and last-seen timestamps, added code-based `/access` trials, added owner-only `/serveradmin` listing, approval and leave cleanup tools, blocked non-approved guilds from using normal commands during pending or expired access states, added feedback-channel notifications for private access requests, added delayed cleanup for pending guilds without activation, refreshed community, pulse, bot info, README and public data documentation, renamed the internal maintenance README to avoid confusion with the public README, added dynamic presence capacity text, and stored lightweight user/moderator tags on new moderation cases for better readable records.
+
+
+## [5.1.0] - 2026-06-13
+### improve
+- Pro logs, data retention and UX audit update: improved server/message/member/role/channel log readability with mentions, names and IDs while preventing unwanted log pings, centralized fish and optional moderation case retention cleanup, added periodic data retention checks on startup/runtime, clarified private-assistant help wording, added detailed `/help command` option/subcommand visibility, tightened `/pulse` versus `/spark` command descriptions, simplified configuration checklist status wording, refreshed privacy and maintenance documentation, and kept the command set audit focused on clarity instead of removing useful grouped commands.
