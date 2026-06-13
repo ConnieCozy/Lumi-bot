@@ -1,72 +1,67 @@
-# Lumi data requests
+# Lumi terms of service
 
-Ce document décrit comment traiter une demande liée aux données stockées par Lumi.
+Dernière mise à jour : 2026-06-13
 
-Il sert de procédure publique simple pour les administrateurs de serveurs et de note interne pour l'équipe Lumi. Il ne remplace pas un conseil juridique.
+Ces conditions décrivent les règles d'utilisation de Lumi.
 
-## Données concernées
+En invitant ou en utilisant Lumi sur un serveur Discord, vous acceptez ces conditions.
 
-Lumi stocke seulement les données nécessaires au fonctionnement du bot :
+## Utilisation de Lumi
 
-- configuration serveur : salons de logs, salon bienvenue, salon départ, rôle modération, réglages AutoMod ;
-- cas de modération : serveur, utilisateur concerné, modérateur, type d'action, raison, durée éventuelle, date ;
-- records de pêche : meilleur score permanent, meilleur score hebdomadaire, résultat de la semaine précédente, meilleure capture, rareté, spot narratif, poids et compteurs légers par joueur et par serveur ;
-- aucune donnée XP, économie ou profil social permanent n'est prévue dans la version actuelle.
+Lumi est fournie comme assistante Discord premium privée pour aider des serveurs choisis avec :
 
-Quand Lumi quitte ou est retirée d'un serveur, les données liées à ce serveur sont supprimées automatiquement de la base de données de Lumi.
+- modération ;
+- logs ;
+- configuration serveur ;
+- AutoMod ;
+- commandes utilitaires ;
+- commandes fun et interactions communautaires.
 
-## Qui peut faire une demande
+Les administrateurs du serveur restent responsables de la configuration de Lumi, des permissions Discord et de l'utilisation des commandes par leur équipe.
 
-Pour les données liées à un serveur, la demande doit venir d'un propriétaire ou administrateur du serveur concerné.
+## Règles d'usage
 
-Cela évite qu'un utilisateur isolé puisse demander la suppression ou la consultation de données de modération d'un serveur sans contexte, par exemple pour masquer un abus réel.
+Vous ne devez pas utiliser Lumi pour :
 
-Une demande individuelle liée à des droits légaux sur des données personnelles peut être examinée séparément. Lumi peut demander des éléments de vérification raisonnables avant de répondre.
+- harceler, menacer ou cibler abusivement des utilisateurs ;
+- contourner les règles de Discord ;
+- automatiser du spam ou des comportements nuisibles ;
+- collecter ou exposer des données sans raison légitime ;
+- usurper l'identité de Lumi, de ConnieCozy ou de HexBoon Development.
 
-## Preuves demandées
+## Modération
 
-Pour une demande serveur, l'administrateur doit fournir :
+Les outils de modération de Lumi aident le staff, mais ne remplacent pas le jugement humain.
 
-- l'ID du serveur ;
-- une capture de `/serverinfo` montrant le serveur concerné ;
-- son ID utilisateur Discord ;
-- une capture de son profil Discord ;
-- une preuve qu'il possède une permission administrateur ou qu'il est propriétaire du serveur ;
-- le type de demande : consultation, correction, suppression, vérification d'un cas.
+Chaque serveur reste responsable de ses décisions de modération, de ses règles internes et de la gestion de ses salons de logs.
 
-Pour vérifier un cas de modération précis, ajouter si possible :
+## Disponibilité
 
-- l'ID de l'utilisateur concerné ;
-- la date ou période approximative ;
-- le type d'action : warn, mute, kick, ban, unban, automod ;
-- la raison affichée si elle est connue ;
-- tout contexte utile pour repérer le cas.
+Lumi est fournie en développement actif.
 
-## Réponses possibles
+Le bot peut être indisponible temporairement en cas de maintenance, incident Discord, hébergement, base de données ou mise à jour.
 
-Selon la demande, l'équipe Lumi peut :
+Pendant la phase premium privée, Lumi limite volontairement le nombre de serveurs acceptés et peut limiter la taille des serveurs invités. L'accès peut être permanent, accordé après demande validée, ou limité dans le temps pour un essai.
 
-- confirmer qu'aucune donnée liée au serveur n'a été trouvée ;
-- fournir un résumé des données serveur pertinentes ;
-- vérifier un cas de modération précis ;
-- corriger une donnée manifestement incorrecte ;
-- supprimer ou anonymiser une donnée qui n'est plus nécessaire ;
-- refuser ou limiter une demande abusive, impossible à vérifier, ou qui mettrait en danger la sécurité/modération d'un serveur.
+Si un serveur n'est pas autorisé, dépasse la capacité, dépasse la taille configurée ou arrive en fin d'essai, Lumi peut refuser l'accès, prévenir le serveur concerné, le quitter automatiquement et nettoyer les données liées.
 
-## Données qui ne sont pas fournies
+## Propriété
 
-Lumi ne fournit pas :
+Lumi, son nom, son personnage, son identité visuelle, ses textes propres, ses assets et son code sont protégés.
 
-- les tokens, secrets, variables d'environnement ou informations d'infrastructure ;
-- les données d'autres serveurs ;
-- les données de modération d'un serveur à une personne qui ne peut pas prouver son autorité sur ce serveur ;
-- des exports massifs inutiles quand une vérification ciblée suffit.
+Vous ne pouvez pas copier, redistribuer, modifier, revendiquer ou réutiliser Lumi sans autorisation explicite.
 
-## Canal recommandé
+## Données
 
-Les demandes liées aux données doivent être faites sur le serveur support Lumi afin que l'équipe puisse vérifier les preuves, poser des questions si nécessaire et répondre correctement.
+L'utilisation de Lumi implique certains traitements de données nécessaires à son fonctionnement.
 
-La commande `/feedback` sert uniquement à transmettre une suggestion, un bug ou un retour court. Elle ne permet pas d'assurer un suivi ni de répondre directement à une demande de données.
+La politique de confidentialité est disponible ici :
 
-Pour une demande sensible, éviter de publier des IDs et captures dans un salon public.
+[PRIVACY_POLICY.md](PRIVACY_POLICY.md)
+
+## Support
+
+Pour une question, un bug ou une demande, utilisez le serveur support Lumi :
+
+https://discord.gg/wJ8xjWJ2Nd
 
