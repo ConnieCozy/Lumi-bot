@@ -8,7 +8,7 @@ Il sert de procédure publique simple pour les administrateurs de serveurs et de
 
 Lumi stocke seulement les données nécessaires au fonctionnement du bot :
 
-- configuration serveur : salons de logs, salon bienvenue, salon départ, rôle modération, réglages AutoMod ;
+- configuration serveur : nom du serveur, owner ID, nombre de membres, statut d'accès privé, salons de logs, salon bienvenue, salon départ, rôle modération, réglages AutoMod ;
 - cas de modération : serveur, utilisateur concerné, modérateur, type d'action, raison, durée éventuelle, date ;
 - records de pêche : meilleur score permanent, meilleur score hebdomadaire, résultat de la semaine précédente, meilleure capture, rareté, poids et compteurs légers par joueur et par serveur ;
 - aucune donnée XP, économie ou profil social permanent n'est prévue dans la version actuelle.
@@ -69,4 +69,5 @@ Les demandes liées aux données doivent être faites sur le serveur support Lum
 La commande `/feedback` sert uniquement à transmettre une suggestion, un bug ou un retour court. Elle ne permet pas d'assurer un suivi ni de répondre directement à une demande de données.
 
 Pour une demande sensible, éviter de publier des IDs et captures dans un salon public.
+
 
