@@ -2,14 +2,15 @@
   <img src="assets/banner.png" width="900" alt="Lumi banner">
 </p>
 
-<h1 align="center">⚡ Lumi</h1>
+<h1 align="center">⚡ Lumi Premium Private Assistant</h1>
 
 <p align="center">
-  Un bot Discord francophone pour modérer, logger, aider la communauté et ajouter une petite étincelle au serveur.
+  Une assistante Discord francophone privée pour modérer, logger, aider la communauté et ajouter une petite étincelle au serveur.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-4.6.1-4AA3FF?style=for-the-badge" alt="Version 4.6.0">
+  <img src="https://img.shields.io/badge/Version-5.0.0-4AA3FF?style=for-the-badge" alt="Version 5.0.0">
+  <img src="https://img.shields.io/badge/Premium-Private%20Assistant-111827?style=for-the-badge" alt="Premium Private Assistant">
   <img src="https://img.shields.io/badge/Node.js-powered-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
   <img src="https://img.shields.io/badge/Discord.js-v14-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord.js v14">
   <img src="https://img.shields.io/badge/Prisma-ready-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma">
@@ -26,9 +27,9 @@
 
 ## ✨ Qui est Lumi ?
 
-Lumi est une assistante IA Discord francophone créée par **ConnieCozy** et développée avec **HexBoon Development**.
+Lumi est une assistante IA Discord francophone **premium privée**, créée par **ConnieCozy** et développée avec **HexBoon Development**.
 
-Elle est pensée pour accompagner une communauté sur le long terme : modération, logs, utilitaires, AutoMod, commandes fun, outils d'assistance et petites interactions qui donnent plus de vie au serveur.
+Elle est pensée pour accompagner quelques communautés choisies sur le long terme : modération, logs, utilitaires, AutoMod, commandes fun, outils d'assistance et petites interactions qui donnent plus de vie au serveur.
 
 Lumi n'est pas juste un bot à commandes. Dans son lore, c'est une petite assistante IA douce, drôle, parfois sarcastique, toujours un peu électrique.
 
@@ -64,11 +65,11 @@ Au-delà des commandes, Lumi garde une identité reconnaissable : une assistante
 
 Lumi est en développement actif.
 
-Le projet avance par étapes : stabilité, expérience utilisateur, puis fonctionnalités communautaires plus avancées.
+Le projet avance maintenant comme une assistante privée/premium : peu de serveurs, plus de soin, plus de fonctionnalités utiles, et une base technique prête à évoluer plus largement un jour si l'infrastructure suit.
 
 Chaque version sert à rendre Lumi plus fiable, plus agréable et plus facile à maintenir sur le long terme.
 
-Pendant la phase Render/Neon gratuite, Lumi fonctionne avec une limite volontaire de **25 serveurs** afin de rester stable, légère et maintenable.
+Pendant la phase privée actuelle, Lumi fonctionne avec une limite volontaire de **5 serveurs** et une taille serveur maîtrisée afin de rester stable, légère et maintenable.
 
 ---
 
@@ -105,7 +106,8 @@ Lumi est construite avec :
 - [x] Nettoyage des données inutilisées pour Neon v4.3
 - [x] Gestion staff sécurisée des rôles v4.4
 - [x] Logs précis, docs publiques et AutoMod plus clair v4.5
-- [x] Pêche hebdomadaire, réactions GIF et limite serveur free-plan v4.6
+- [x] Pêche hebdomadaire, réactions GIF et limite serveur v4.6
+- [x] Direction Premium Private Assistant v5.0
 - [ ] Documentation utilisateur complète
 - [ ] Audit des commandes à garder, modifier ou retirer
 - [ ] Parcours utilisateur Lumi plus clair : aide, configuration, onboarding et commandes regroupées
@@ -147,6 +149,7 @@ Le fichier `LICENSE` du dépôt public précise les conditions complètes.
 <p align="center">
   ⚡ Lumi veille. Probablement avec un peu trop d'énergie.
 </p>
+
 
 
 
