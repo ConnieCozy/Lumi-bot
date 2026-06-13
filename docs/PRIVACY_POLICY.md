@@ -54,6 +54,8 @@ Les données de configuration sont conservées tant que Lumi est utilisée sur l
 
 Les cas de modération sont conservés tant que Lumi est présente sur le serveur afin de permettre au staff de vérifier l'historique et les abus.
 
+Une durée de conservation automatique peut être configurée pour les cas de modération si le serveur souhaite limiter l'historique stocké. Par défaut, Lumi ne purge pas automatiquement ces cas.
+
 Les records de pêche ne conservent pas l'historique de chaque pêche. Lumi garde seulement une ligne par joueur et par serveur avec le meilleur score permanent, le meilleur score de la semaine, le résultat de la semaine précédente et des compteurs légers.
 
 Les records de pêche inactifs peuvent être supprimés automatiquement après une courte période de conservation afin de limiter l'espace utilisé sur la base de données. La durée recommandée pendant la phase premium privée est de 14 jours.
@@ -83,5 +85,6 @@ Le code public de Lumi sert uniquement de vitrine et ne doit pas contenir de sec
 Pour une question ou une demande, utilisez le serveur support Lumi :
 
 https://discord.gg/wJ8xjWJ2Nd
+
 
 
