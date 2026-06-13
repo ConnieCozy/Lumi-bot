@@ -273,3 +273,8 @@
 ## [5.1.0] - 2026-06-13
 ### improve
 - Pro logs, data retention and UX audit update: improved server/message/member/role/channel log readability with mentions, names and IDs while preventing unwanted log pings, centralized fish and optional moderation case retention cleanup, added periodic data retention checks on startup/runtime, clarified private-assistant help wording, added detailed `/help command` option/subcommand visibility, tightened `/pulse` versus `/spark` command descriptions, simplified configuration checklist status wording, refreshed privacy and maintenance documentation, and kept the command set audit focused on clarity instead of removing useful grouped commands.
+
+
+## [5.1.1] - 2026-06-13
+### fix
+- Database resilience patch: added safe handling for temporary Prisma/Neon connection failures, prevented AutoMod and member events from spamming full database errors, added a throttled database-unavailable logger, allowed log delivery to use cached guild settings when available, returned a clear temporary-unavailable message for commands that need the database, kept public help/community/botinfo commands usable during access checks, and cleaned the `/spark` help wording.
