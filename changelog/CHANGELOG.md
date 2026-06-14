@@ -288,3 +288,8 @@
 ## [5.3.0] - 2026-06-14
 ### add
 - Fish ranked seasons and autorole update: added lightweight monthly fishing seasons, added seasonal rank progression from Iron to Challenger based on monthly catches, best seasonal rarity and best seasonal score, colored fish catch/profile embeds by rank, added seasonal rank and next-rank hints to `/fish catch`, added a seasonal leaderboard to `/fish top`, kept total catches permanent while monthly ranks reset, reminded users about `/fish profile`, added a secured configurable arrival autorole in `/configuration`, blocked unsafe/high/managed autoroles, logged autorole assignment during member joins, exposed autorole status in `/pulse`, and documented the new seasonal fish storage.
+
+
+## [5.3.1] - 2026-06-14
+### fix
+- Maintenance cleanup patch: centralized shared feedback emojis, exposed the common emoji set from config, moved Fish rank embed colors into the shared color config, replaced repeated configuration status markers with common emoji constants, and kept the update behavior-neutral before the next role and verification features.
