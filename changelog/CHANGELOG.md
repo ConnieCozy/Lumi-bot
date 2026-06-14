@@ -296,3 +296,8 @@
 ## [5.3.1] - 2026-06-14
 ### fix
 - Maintenance cleanup patch: centralized shared feedback emojis, exposed the common emoji set from config, moved Fish rank embed colors into the shared color config, replaced repeated configuration status markers with common emoji constants, and kept the update behavior-neutral before the next role and verification features.
+
+
+## [5.3.3] - 2026-06-14
+### improve
+- Fish catch UX cleanup: simplified `/fish catch` result fields so catches stay quick to read, kept detailed season progression inside `/fish profile`, and kept the weekly podium details focused in `/fish top`.
