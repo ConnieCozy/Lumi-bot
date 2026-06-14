@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-5.3.2-4AA3FF?style=for-the-badge" alt="Version 5.3.0">
+  <img src="https://img.shields.io/badge/Version-5.3.3-4AA3FF?style=for-the-badge" alt="Version 5.3.0">
   <img src="https://img.shields.io/badge/Premium-Private%20Assistant-111827?style=for-the-badge" alt="Premium Private Assistant">
   <img src="https://img.shields.io/badge/Node.js-powered-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
   <img src="https://img.shields.io/badge/Discord.js-v14-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord.js v14">
