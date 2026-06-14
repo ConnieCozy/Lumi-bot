@@ -278,3 +278,8 @@
 ## [5.1.1] - 2026-06-13
 ### fix
 - Database resilience patch: added safe handling for temporary Prisma/Neon connection failures, prevented AutoMod and member events from spamming full database errors, added a throttled database-unavailable logger, allowed log delivery to use cached guild settings when available, returned a clear temporary-unavailable message for commands that need the database, kept public help/community/botinfo commands usable during access checks, and cleaned the `/spark` help wording.
+
+
+## [5.2.0] - 2026-06-14
+### improve
+- Server log and Fish optimization update: simplified channel, role, member and user profile logs to avoid repeated identity blocks, removed duplicated channel/role names from log identities, ignored permission-only channel updates emitted immediately after channel creation, added more precise channel permission overwrite details, added optional audit-log responsible fields for channel, role and guild changes when Discord permissions allow it, documented the audit-log permission behavior, reduced `/fish catch` database reads by moving full leaderboard display back to `/fish top`, kept only the player's current weekly rank in catch results, throttled inactive fish cleanup per guild, added safer database-unavailable handling for fish records and rankings, and completed a command UX audit with no active duplicate command names found.
