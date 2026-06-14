@@ -18,7 +18,7 @@ Lumi peut traiter les données suivantes :
 - IDs de modérateurs ayant effectué une action ;
 - raisons, types, durées et dates des cas de modération ;
 - réglages AutoMod, logs, bienvenue, départ et configuration serveur ;
-- records de pêche : serveur, utilisateur, meilleur score permanent, meilleur score hebdomadaire, résultat de la semaine précédente, meilleure capture, rareté, poids et compteurs de captures ;
+- records de pêche : serveur, utilisateur, meilleur score permanent, meilleur score hebdomadaire, résultat de la semaine précédente, score de saison mensuelle, meilleure capture, rareté, poids et compteurs de captures ;
 - contenu transmis volontairement via une commande de feedback.
 
 Lumi ne stocke pas de système XP, économie ou profil social permanent dans la version actuelle.
@@ -32,8 +32,9 @@ Ces données servent à :
 - appliquer les outils de modération ;
 - conserver un historique de modération utile au staff ;
 - envoyer les logs configurés par le serveur ;
+- attribuer un rôle automatique d'arrivée quand un serveur le configure ;
 - protéger les serveurs contre certains abus comme spam, raid ou messages répétés ;
-- afficher le record personnel et le Top 3 serveur de la commande `/fish` ;
+- afficher le record personnel, le rank saisonnier mensuel et les Top 3 serveur de la commande `/fish` ;
 - recevoir des retours d'administrateurs via `/feedback`.
 
 ## Logs Discord
@@ -56,7 +57,7 @@ Les cas de modération sont conservés tant que Lumi est présente sur le serveu
 
 Une durée de conservation automatique peut être configurée pour les cas de modération si le serveur souhaite limiter l'historique stocké. Par défaut, Lumi ne purge pas automatiquement ces cas.
 
-Les records de pêche ne conservent pas l'historique de chaque pêche. Lumi garde seulement une ligne par joueur et par serveur avec le meilleur score permanent, le meilleur score de la semaine, le résultat de la semaine précédente et des compteurs légers.
+Les records de pêche ne conservent pas l'historique de chaque pêche. Lumi garde seulement une ligne par joueur et par serveur avec le meilleur score permanent, le meilleur score de la semaine, le résultat de la semaine précédente, le meilleur score de saison mensuelle et des compteurs légers.
 
 Les records de pêche inactifs peuvent être supprimés automatiquement après une courte période de conservation afin de limiter l'espace utilisé sur la base de données. La durée recommandée pendant la phase premium privée est de 14 jours.
 
@@ -85,6 +86,7 @@ Le code public de Lumi sert uniquement de vitrine et ne doit pas contenir de sec
 Pour une question ou une demande, utilisez le serveur support Lumi :
 
 https://discord.gg/wJ8xjWJ2Nd
+
 
 
 
