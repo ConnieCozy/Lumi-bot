@@ -283,3 +283,8 @@
 ## [5.2.0] - 2026-06-14
 ### improve
 - Server log and Fish optimization update: simplified channel, role, member and user profile logs to avoid repeated identity blocks, removed duplicated channel/role names from log identities, ignored permission-only channel updates emitted immediately after channel creation, added more precise channel permission overwrite details, added optional audit-log responsible fields for channel, role and guild changes when Discord permissions allow it, documented the audit-log permission behavior, reduced `/fish catch` database reads by moving full leaderboard display back to `/fish top`, kept only the player's current weekly rank in catch results, throttled inactive fish cleanup per guild, added safer database-unavailable handling for fish records and rankings, and completed a command UX audit with no active duplicate command names found.
+
+
+## [5.3.0] - 2026-06-14
+### add
+- Fish ranked seasons and autorole update: added lightweight monthly fishing seasons, added seasonal rank progression from Iron to Challenger based on monthly catches, best seasonal rarity and best seasonal score, colored fish catch/profile embeds by rank, added seasonal rank and next-rank hints to `/fish catch`, added a seasonal leaderboard to `/fish top`, kept total catches permanent while monthly ranks reset, reminded users about `/fish profile`, added a secured configurable arrival autorole in `/configuration`, blocked unsafe/high/managed autoroles, logged autorole assignment during member joins, exposed autorole status in `/pulse`, and documented the new seasonal fish storage.
