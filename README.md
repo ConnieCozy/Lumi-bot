@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-5.3.3-4AA3FF?style=for-the-badge" alt="Version 5.3.0">
+  <img src="https://img.shields.io/badge/Version-5.4.0-4AA3FF?style=for-the-badge" alt="Version 5.4.0">
   <img src="https://img.shields.io/badge/Premium-Private%20Assistant-111827?style=for-the-badge" alt="Premium Private Assistant">
   <img src="https://img.shields.io/badge/Node.js-powered-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
   <img src="https://img.shields.io/badge/Discord.js-v14-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord.js v14">
@@ -112,6 +112,8 @@ Lumi est construite avec :
 - [x] Logs serveur propres et pêche allégée v5.2
 - [x] Rank saisonnier mensuel pour la pêche v5.3
 - [x] Rôle automatique sécurisé à l'arrivée v5.3
+- [x] Vérification membre et rôles à boutons v5.4
+- [x] Annonces créateur privées Twitch/YouTube v5.4
 - [ ] Documentation utilisateur complète
 - [ ] Audit des commandes à garder, modifier ou retirer
 - [ ] Parcours utilisateur Lumi plus clair : aide, configuration, onboarding et commandes regroupées
@@ -153,6 +155,7 @@ Le fichier `LICENSE` du dépôt public précise les conditions complètes.
 <p align="center">
   ⚡ Lumi veille. Probablement avec un peu trop d'énergie.
 </p>
+
 
 
 
