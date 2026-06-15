@@ -298,6 +298,10 @@
 - Maintenance cleanup patch: centralized shared feedback emojis, exposed the common emoji set from config, moved Fish rank embed colors into the shared color config, replaced repeated configuration status markers with common emoji constants, and kept the update behavior-neutral before the next role and verification features.
 
 
+## [5.4.0] - 2026-06-15
+### add
+- Member onboarding and creator tools update: added `/verification` for the non-verified to verified member flow using the existing arrival autorole, added a lightweight Lumi verification modal, added `/roles panel` for persistent role buttons with add and toggle modes, added safe role permission checks for automatic role assignment systems, added automatic creator posts for Twitch live starts and latest YouTube uploads with a tiny duplicate-prevention state table, kept `/creator announce` as a manual backup, added separate home-server Discord channels for Twitch and YouTube, added new Lumi GIF reactions while removing off-tone duplicate assets, exposed verification state in `/pulse` and assistant checks, documented verification, role buttons, creator env vars and privacy impact, and added the required Prisma fields for verification and creator feed state.
+
 ## [5.3.3] - 2026-06-14
 ### improve
 - Fish catch UX cleanup: simplified `/fish catch` result fields so catches stay quick to read, kept detailed season progression inside `/fish profile`, and kept the weekly podium details focused in `/fish top`.
