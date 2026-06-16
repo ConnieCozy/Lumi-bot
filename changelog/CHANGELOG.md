@@ -298,10 +298,16 @@
 - Maintenance cleanup patch: centralized shared feedback emojis, exposed the common emoji set from config, moved Fish rank embed colors into the shared color config, replaced repeated configuration status markers with common emoji constants, and kept the update behavior-neutral before the next role and verification features.
 
 
+## [5.3.3] - 2026-06-14
+### improve
+- Fish catch UX cleanup: simplified `/fish catch` result fields so catches stay quick to read, kept detailed season progression inside `/fish profile`, and kept the weekly podium details focused in `/fish top`.
+
+
 ## [5.4.0] - 2026-06-15
 ### add
 - Member onboarding and creator tools update: added `/verification` for the non-verified to verified member flow using the existing arrival autorole, added a lightweight Lumi verification modal, added `/roles panel` for persistent role buttons with add and toggle modes, added safe role permission checks for automatic role assignment systems, added automatic creator posts for Twitch live starts and latest YouTube uploads with a tiny duplicate-prevention state table, kept `/creator announce` as a manual backup, added separate home-server Discord channels for Twitch and YouTube, added new Lumi GIF reactions while removing off-tone duplicate assets, exposed verification state in `/pulse` and assistant checks, documented verification, role buttons, creator env vars and privacy impact, and added the required Prisma fields for verification and creator feed state.
 
-## [5.3.3] - 2026-06-14
+
+## [5.5.0] - 2026-06-16
 ### improve
-- Fish catch UX cleanup: simplified `/fish catch` result fields so catches stay quick to read, kept detailed season progression inside `/fish profile`, and kept the weekly podium details focused in `/fish top`.
+- Staff tools and server log update: added a lightweight private ticket system with panel buttons, private ticket channels, optional ticket archive summaries and temporary Prisma tracking for open tickets only; updated privacy and data request documentation for ticket data transparency; reworked channel create/delete/update logs with a clearer Discord-style presentation; added permission-per-target channel update details with long-list limits; expanded French permission labels; ignored noisy permission-only updates right after channel creation; suppressed duplicate member logs when roles are changed from role panels; required explicit custom titles for role panels; moved creator announcements into the dev help category; and allowed longer update/creator announcement text.
