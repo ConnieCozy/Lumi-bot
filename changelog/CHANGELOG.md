@@ -331,3 +331,8 @@
 ## [5.6.1] - 2026-06-16
 ### fix
 - Final stability patch: restored XP and level embeds to Lumi's standard blue instead of the Twitch lavender, tightened private-access checks for old component interactions so expired or unauthorized guilds cannot keep using stale panels, made developer update replies ephemeral, and updated the owner cleanup reply to include level and ticket cleanup counts.
+
+
+## [5.7.0] - 2026-06-16
+### improve
+- Duel and stability cleanup: replaced the separate `/rps` and `/tictactoe` slash commands with a unified `/duel` command that launches either rock-paper-scissors or tic-tac-toe against Lumi or another member, switched new duel replies to Discord's `withResponse` flow, improved stale or out-of-order duel button feedback, made BO3 rematches start directly after the first accepted duel, updated rematch guidance to the new command path, allowed message-based settings lookup to reuse a recent cache during short database outages, kept duplicate and volume AutoMod warnings from crashing when a moderation case cannot be stored during a temporary database issue, allowed Lumi's ready flow to keep starting presence and timers when startup metadata sync is skipped during a short database outage, and cleaned up ticket channels automatically if their database record cannot be created.
