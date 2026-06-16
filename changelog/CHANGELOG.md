@@ -316,3 +316,8 @@
 ## [5.5.1] - 2026-06-16
 ### fix
 - Ticket command deployment hotfix: removed the Discord-level default permission that could hide `/ticket` from staff command lists, kept the Manage Channels safety check inside Lumi, fixed the `/roles panel` option order so Discord accepts command deployment, and moved the creator announcement command file into the dev command folder.
+
+
+## [5.5.2] - 2026-06-16
+### fix
+- Ticket closure permission hotfix: restricted ticket closing to staff members only, including the close button, while keeping ticket owners able to write inside their private ticket until staff closes it.
