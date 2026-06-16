@@ -321,3 +321,8 @@
 ## [5.5.2] - 2026-06-16
 ### fix
 - Ticket closure permission hotfix: restricted ticket closing to staff members only, including the close button, while keeping ticket owners able to write inside their private ticket until staff closes it.
+
+
+## [5.6.0] - 2026-06-16
+### add
+- XP, level and log clarity update: added a lightweight `/level` system with member profiles, server leaderboard, staff settings, message-based XP gains, a one-minute anti-spam cooldown, optional level-up announcement channels, level profile embeds, a compact `UserLevel` Prisma model, automatic XP cleanup when members leave a guild, and full level cleanup when Lumi leaves a guild. Also improved ticket archives with clearer member/staff/reason/duration/date summaries, removed temporary ticket channel references from archive logs, ignored temporary ticket channels in server and message logs to avoid stale `#unknown` references, simplified channel permission logs to focus on useful allowed or revoked permissions, softened Twitch creator embeds with a shared lavender color, and updated privacy, data request, maintenance and architecture documentation.
