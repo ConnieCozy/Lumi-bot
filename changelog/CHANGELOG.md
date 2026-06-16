@@ -311,3 +311,8 @@
 ## [5.5.0] - 2026-06-16
 ### improve
 - Staff tools and server log update: added a lightweight private ticket system with panel buttons, private ticket channels, optional ticket archive summaries and temporary Prisma tracking for open tickets only; updated privacy and data request documentation for ticket data transparency; reworked channel create/delete/update logs with a clearer Discord-style presentation; added permission-per-target channel update details with long-list limits; expanded French permission labels; ignored noisy permission-only updates right after channel creation; suppressed duplicate member logs when roles are changed from role panels; required explicit custom titles for role panels; moved creator announcements into the dev help category; and allowed longer update/creator announcement text.
+
+
+## [5.5.1] - 2026-06-16
+### fix
+- Ticket command deployment hotfix: removed the Discord-level default permission that could hide `/ticket` from staff command lists, kept the Manage Channels safety check inside Lumi, fixed the `/roles panel` option order so Discord accepts command deployment, and moved the creator announcement command file into the dev command folder.
