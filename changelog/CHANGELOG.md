@@ -326,3 +326,8 @@
 ## [5.6.0] - 2026-06-16
 ### add
 - XP, level and log clarity update: added a lightweight `/level` system with member profiles, server leaderboard, staff settings, message-based XP gains, a one-minute anti-spam cooldown, optional level-up announcement channels, level profile embeds, a compact `UserLevel` Prisma model, automatic XP cleanup when members leave a guild, and full level cleanup when Lumi leaves a guild. Also improved ticket archives with clearer member/staff/reason/duration/date summaries, removed temporary ticket channel references from archive logs, ignored temporary ticket channels in server and message logs to avoid stale `#unknown` references, simplified channel permission logs to focus on useful allowed or revoked permissions, softened Twitch creator embeds with a shared lavender color, and updated privacy, data request, maintenance and architecture documentation.
+
+
+## [5.6.1] - 2026-06-16
+### fix
+- Final stability patch: restored XP and level embeds to Lumi's standard blue instead of the Twitch lavender, tightened private-access checks for old component interactions so expired or unauthorized guilds cannot keep using stale panels, made developer update replies ephemeral, and updated the owner cleanup reply to include level and ticket cleanup counts.
