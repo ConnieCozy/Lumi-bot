@@ -341,3 +341,8 @@
 ## [5.8.0] - 2026-06-17
 ### improve
 - Level rewards, ticket and role panel update: added visual Lumi rank tiers to XP/Level profiles, leaderboards and level-up embeds without assigning Discord roles or adding database tables; upgraded ticket panels with selectable ticket types, typed ticket channels, richer welcome/log embeds and a staff claim button that stays lightweight in Discord; extended role button panels with a remove-only mode and sanitized custom panel text; simplified channel and role log identities to prefer display names over numeric IDs while keeping user IDs for moderation proof, cleaned message edit/delete logs by removing unnecessary message ID fields, refreshed private maintenance documentation and bumped the public README version badge.
+
+
+## [5.9.0] - 2026-06-17
+### add
+- Ticket v3 and free games update: reworked ticket panels into a member-driven flow where users choose the ticket type and provide a short summary before channel creation, added temporary ticket type, summary, status, claimed-staff and staff tracker message fields, blocked ticket authors from writing until staff claims the ticket, replaced noisy ticket archive spam with one editable staff-side tracker message that turns grey, green or red through the ticket lifecycle, made ticket closure reasons mandatory, added `/freegames` with private quick previews, rich per-game public posts, settings and optional auto-posting for Steam/Epic free game discovery, added a lightweight per-guild duplicate-prevention state table, added a simple user guide document, refreshed private maintenance/project docs, renamed the internal free games utility service for clarity, and bumped Lumi to 5.9.0.
