@@ -336,3 +336,8 @@
 ## [5.7.0] - 2026-06-16
 ### improve
 - Duel and stability cleanup: replaced the separate `/rps` and `/tictactoe` slash commands with a unified `/duel` command that launches either rock-paper-scissors or tic-tac-toe against Lumi or another member, switched new duel replies to Discord's `withResponse` flow, improved stale or out-of-order duel button feedback, made BO3 rematches start directly after the first accepted duel, updated rematch guidance to the new command path, allowed message-based settings lookup to reuse a recent cache during short database outages, kept duplicate and volume AutoMod warnings from crashing when a moderation case cannot be stored during a temporary database issue, allowed Lumi's ready flow to keep starting presence and timers when startup metadata sync is skipped during a short database outage, and cleaned up ticket channels automatically if their database record cannot be created.
+
+
+## [5.8.0] - 2026-06-17
+### improve
+- Level rewards, ticket and role panel update: added visual Lumi rank tiers to XP/Level profiles, leaderboards and level-up embeds without assigning Discord roles or adding database tables; upgraded ticket panels with selectable ticket types, typed ticket channels, richer welcome/log embeds and a staff claim button that stays lightweight in Discord; extended role button panels with a remove-only mode and sanitized custom panel text; simplified channel and role log identities to prefer display names over numeric IDs while keeping user IDs for moderation proof, cleaned message edit/delete logs by removing unnecessary message ID fields, refreshed private maintenance documentation and bumped the public README version badge.
