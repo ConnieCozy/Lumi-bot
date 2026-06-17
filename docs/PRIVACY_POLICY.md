@@ -1,6 +1,6 @@
 # Lumi privacy policy
 
-Dernière mise à jour : 2026-06-16
+Dernière mise à jour : 2026-06-17
 
 Cette politique explique quelles données Lumi peut utiliser pour fonctionner sur Discord.
 
@@ -21,7 +21,8 @@ Lumi peut traiter les données suivantes :
 - records de pêche : serveur, utilisateur, meilleur score permanent, meilleur score hebdomadaire, résultat de la semaine précédente, score de saison mensuelle, meilleure capture, rareté, poids et compteurs de captures ;
 - données XP/Level : serveur, utilisateur, XP total, niveau, nombre de messages comptés et date du dernier gain XP ;
 - état minimal des annonces créateur : dernier live Twitch ou dernière vidéo YouTube déjà annoncé afin d'éviter les doublons ;
-- données temporaires de tickets ouverts : serveur, salon ticket, utilisateur ayant ouvert le ticket et date de création ;
+- données temporaires de tickets ouverts : serveur, salon ticket, utilisateur ayant ouvert le ticket, type, résumé court, statut, staff ayant pris en charge, ID du message de suivi staff et date de création ;
+- état minimal des jeux gratuits : dernière liste Steam/Epic déjà postée par serveur afin d'éviter les doublons ;
 - contenu transmis volontairement via une commande de feedback.
 
 Lumi ne stocke pas d'économie ou d'inventaire social permanent.
@@ -41,7 +42,8 @@ Ces données servent à :
 - afficher le record personnel, le rank saisonnier mensuel et les Top 3 serveur de la commande `/fish` ;
 - afficher les profils XP/Level, le classement serveur et les annonces de passage de niveau ;
 - publier automatiquement les débuts de live Twitch et nouvelles vidéos YouTube configurés pour le serveur principal ;
-- créer et fermer des tickets privés entre un membre et le staff du serveur ;
+- créer, suivre et fermer des tickets privés entre un membre et le staff du serveur ;
+- afficher ou poster les jeux gratuits Steam/Epic dans un salon configuré ;
 - recevoir des retours d'administrateurs via `/feedback`.
 
 ## Logs Discord
@@ -74,9 +76,11 @@ Les panneaux de rôles à boutons ne stockent pas l'état de chaque membre dans 
 
 Les annonces automatiques Twitch/YouTube ne stockent pas d'historique complet. Lumi conserve seulement le dernier identifiant annoncé par source pour éviter de republier le même live ou la même vidéo après un redémarrage.
 
-Les tickets ne stockent pas les messages dans la base de données. Lumi garde seulement une ligne temporaire pendant que le ticket est ouvert. Quand le ticket est fermé, cette ligne est supprimée. Si un salon archive/résumé est configuré, un résumé peut être envoyé dans Discord et sa conservation dépend alors des réglages du serveur Discord concerné.
+Les tickets ne stockent pas les messages dans la base de données. Lumi garde seulement une ligne temporaire pendant que le ticket est ouvert: type, résumé court, statut, prise en charge staff et ID du message de suivi staff. Quand le ticket est fermé, cette ligne est supprimée. Si un salon de suivi ticket est configuré, le message Discord final reste dans le serveur et sa conservation dépend alors des réglages du serveur Discord concerné.
 
-Quand Lumi quitte ou est retirée d'un serveur, les données liées à ce serveur sont supprimées automatiquement de la base de données de Lumi. Cela inclut la configuration serveur, les cas de modération associés, les records de pêche du serveur, les profils XP/Level et les tickets encore ouverts.
+Les jeux gratuits Steam/Epic ne stockent pas d'historique complet. Lumi conserve seulement la dernière signature postée par serveur pour éviter de republier la même liste.
+
+Quand Lumi quitte ou est retirée d'un serveur, les données liées à ce serveur sont supprimées automatiquement de la base de données de Lumi. Cela inclut la configuration serveur, les cas de modération associés, les records de pêche du serveur, les profils XP/Level, les tickets encore ouverts et l'état de publication des jeux gratuits.
 
 Une demande de vérification, correction, suppression ou anonymisation peut aussi être faite selon la procédure dédiée.
 
@@ -101,7 +105,6 @@ Le code public de Lumi sert uniquement de vitrine et ne doit pas contenir de sec
 Pour une question ou une demande, utilisez le serveur support Lumi :
 
 https://discord.gg/wJ8xjWJ2Nd
-
 
 
 
