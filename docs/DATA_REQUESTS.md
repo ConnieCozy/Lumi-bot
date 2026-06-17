@@ -11,8 +11,9 @@ Lumi stocke seulement les données nécessaires au fonctionnement du bot :
 - configuration serveur : nom du serveur, owner ID, nombre de membres, statut d'accès privé, salons de logs, salon bienvenue, salon départ, rôle modération, réglages AutoMod ;
 - cas de modération : serveur, utilisateur concerné, modérateur, type d'action, raison, durée éventuelle, date ;
 - records de pêche : meilleur score permanent, meilleur score hebdomadaire, résultat de la semaine précédente, meilleure capture, rareté, poids et compteurs légers par joueur et par serveur ;
-- tickets ouverts : serveur, salon ticket, utilisateur ayant ouvert le ticket et date de création. Les tickets fermés sont supprimés de la base de données, avec résumé Discord optionnel si un salon archive est configuré ;
-- profils XP/Level : serveur, utilisateur, XP total, niveau, messages comptés et dernier gain XP.
+- tickets ouverts : serveur, salon ticket, utilisateur ayant ouvert le ticket, type, résumé court, statut, staff ayant pris en charge, ID du message de suivi staff et date de création. Les tickets fermés sont supprimés de la base de données, avec résumé Discord optionnel si un salon de suivi ticket est configuré ;
+- profils XP/Level : serveur, utilisateur, XP total, niveau, messages comptés et dernier gain XP ;
+- cache jeux gratuits : dernière signature Steam/Epic postée par serveur pour éviter les doublons.
 
 Quand Lumi quitte ou est retirée d'un serveur, les données liées à ce serveur sont supprimées automatiquement de la base de données de Lumi.
 
@@ -72,6 +73,7 @@ Les demandes liées aux données doivent être faites sur le serveur support Lum
 La commande `/feedback` sert uniquement à transmettre une suggestion, un bug ou un retour court. Elle ne permet pas d'assurer un suivi ni de répondre directement à une demande de données.
 
 Pour une demande sensible, éviter de publier des IDs et captures dans un salon public.
+
 
 
 
