@@ -346,3 +346,8 @@
 ## [5.9.0] - 2026-06-17
 ### add
 - Ticket v3 and free games update: reworked ticket panels into a member-driven flow where users choose the ticket type and provide a short summary before channel creation, added temporary ticket type, summary, status, claimed-staff and staff tracker message fields, blocked ticket authors from writing until staff claims the ticket, replaced noisy ticket archive spam with one editable staff-side tracker message that turns grey, green or red through the ticket lifecycle, made ticket closure reasons mandatory, added `/freegames` with private quick previews, rich per-game public posts, settings and optional auto-posting for Steam/Epic free game discovery, added a lightweight per-guild duplicate-prevention state table, added a simple user guide document, refreshed private maintenance/project docs, renamed the internal free games utility service for clarity, and bumped Lumi to 5.9.0.
+
+
+## [5.9.1] - 2026-06-17
+### fix
+- Ticket staff role hotfix: allowed the configured ticket staff role and Lumi moderation role to claim, update and close tickets without requiring heavy Discord channel-management permissions, added the moderation role to new ticket channel overwrites, synced ticket archive/log channel visibility for configured staff roles when publishing the ticket panel, kept ticket configuration changes restricted to users with channel-management permissions, and bumped Lumi to 5.9.1.
