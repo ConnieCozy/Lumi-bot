@@ -81,6 +81,8 @@ Les rangs Lumi sont visuels uniquement. Ils ne donnent pas de rôle Discord.
 
 ## 6. Jeux gratuits
 
+Commande réservée au staff/admin serveur.
+
 `/freegames show` affiche un aperçu privé rapide des jeux gratuits détectés sur Steam et Epic.
 
 Le staff peut régler un salon dédié:
@@ -92,3 +94,23 @@ Le staff peut régler un salon dédié:
 Lumi utilise un cache pour éviter les appels inutiles et ne pas reposter la même liste.
 
 `/freegames post` publie les annonces complètes dans le salon configuré, avec une carte par jeu quand une image est disponible.
+
+## 7. Vocaux temporaires
+
+Le staff peut activer un salon déclencheur avec:
+
+```text
+/voice setup create_channel:#Créer-un-vocal category:Vocaux max_active:5 enabled:true
+```
+
+Quand un membre rejoint ce salon, Lumi crée un vocal temporaire, le déplace dedans, puis supprime le vocal quand il devient vide.
+
+Le propriétaire du vocal peut utiliser:
+
+- `/voice rename` pour renommer son vocal;
+- `/voice limit` pour régler le nombre de places;
+- `/voice lock` pour fermer les nouvelles entrées;
+- `/voice unlock` pour rouvrir;
+- `/voice transfer` pour donner la gestion à une autre personne présente dans le vocal.
+
+Le staff peut aussi utiliser ces actions si besoin. Lumi garde une limite de vocaux actifs pour éviter les abus.
