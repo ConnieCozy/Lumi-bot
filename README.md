@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-5.9.0-4AA3FF?style=for-the-badge" alt="Version 5.9.1">
+  <img src="https://img.shields.io/badge/Version-5.10.0-4AA3FF?style=for-the-badge" alt="Version 5.10.0">
   <img src="https://img.shields.io/badge/Premium-Private%20Assistant-111827?style=for-the-badge" alt="Premium Private Assistant">
   <img src="https://img.shields.io/badge/Node.js-powered-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
   <img src="https://img.shields.io/badge/Discord.js-v14-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord.js v14">
@@ -20,7 +20,7 @@
   <img src="https://img.shields.io/badge/Langue-FR%20first-0055FF?style=for-the-badge" alt="Langue FR first">
   <img src="https://img.shields.io/badge/Mood-Sweet%20%2B%20sarcastic-FFD43B?style=for-the-badge" alt="Mood sweet and sarcastic">
   <img src="https://img.shields.io/badge/Energy-electric-FFE066?style=for-the-badge" alt="Energy electric">
-  <img src="https://img.shields.io/badge/Status-active%20development-FFB7D5?style=for-the-badge" alt="Active development">
+  <img src="https://img.shields.io/badge/Status-stable%20maintenance-FFB7D5?style=for-the-badge" alt="Stable maintenance">
 </p>
 
 ---
@@ -63,9 +63,9 @@ Au-delà des commandes, Lumi garde une identité reconnaissable : une assistante
 
 ## 📢 État du projet
 
-Lumi est en développement actif.
+Lumi est en phase stable avec maintenance suivie.
 
-Le projet avance maintenant comme une assistante privée/premium : peu de serveurs, plus de soin, plus de fonctionnalités utiles, et une base technique prête à évoluer plus largement un jour si l'infrastructure suit.
+Le projet continue d'évoluer plus calmement comme une assistante privée/premium : peu de serveurs, plus de soin, des ajouts réfléchis, et une base technique prête à évoluer plus largement un jour si l'infrastructure suit.
 
 Chaque version sert à rendre Lumi plus fiable, plus agréable et plus facile à maintenir sur le long terme.
 
@@ -119,6 +119,7 @@ Lumi est construite avec :
 - [x] Duel unifié et stabilisation interactions v5.7
 - [x] Rangs visuels Lumi pour XP/Level v5.8
 - [x] Tickets avec suivi staff unique et jeux gratuits Steam/Epic v5.9
+- [x] Vocaux temporaires légers et annonces visuelles v5.10
 - [ ] Documentation utilisateur complète
 - [ ] Audit des commandes à garder, modifier ou retirer
 - [ ] Parcours utilisateur Lumi plus clair : aide, configuration, onboarding et commandes regroupées
@@ -160,6 +161,7 @@ Le fichier `LICENSE` du dépôt public précise les conditions complètes.
 <p align="center">
   ⚡ Lumi veille. Probablement avec un peu trop d'énergie.
 </p>
+
 
 
 
