@@ -13,11 +13,14 @@ Lumi stocke seulement les données nécessaires au fonctionnement du bot :
 - records de pêche : meilleur score permanent, meilleur score hebdomadaire, résultat de la semaine précédente, meilleure capture, rareté, poids et compteurs légers par joueur et par serveur ;
 - tickets ouverts : serveur, salon ticket, utilisateur ayant ouvert le ticket, type, résumé court, statut, staff ayant pris en charge, ID du message de suivi staff et date de création. Les tickets fermés sont supprimés de la base de données, avec résumé Discord optionnel si un salon de suivi ticket est configuré ;
 - profils XP/Level : serveur, utilisateur, XP total, niveau, messages comptés et dernier gain XP ;
-- cache jeux gratuits : dernière signature Steam/Epic postée par serveur pour éviter les doublons.
+- cache jeux gratuits : dernière signature Steam/Epic postée par serveur pour éviter les doublons ;
+- vocaux temporaires actifs : serveur, salon vocal temporaire, propriétaire et dates techniques tant que le salon existe.
 
 Quand Lumi quitte ou est retirée d'un serveur, les données liées à ce serveur sont supprimées automatiquement de la base de données de Lumi.
 
 Quand un membre quitte un serveur, Lumi supprime automatiquement ses données XP/Level et ses records de pêche liés à ce serveur. Les cas de modération restent liés au serveur afin de préserver l'historique staff.
+
+Les vocaux temporaires ne contiennent pas d'audio ni d'historique de conversation. Ils sont supprimés de la base quand le salon temporaire est supprimé.
 
 ## Qui peut faire une demande
 
