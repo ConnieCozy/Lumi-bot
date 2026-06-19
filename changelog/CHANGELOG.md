@@ -1,5 +1,10 @@
 # Changelog
 
+## [5.10.1] - 2026-06-20
+### fix
+- Fish balance patch: made high seasonal ranks less frustrating by lowering the Grandmaster and Challenger score/catch walls, increased rare/epic/legendary/mythic catch odds while keeping mythic rare, made high-rarity fishing spots favor the storm cache more often, raised late-rarity score ranges and spot bonuses slightly, made fish weights feel more rewarding, sanitized database-unavailable logs during fish and moderation cleanup tasks, and bumped Lumi to 5.10.1.
+
+
 ## [5.10.0] - 2026-06-18
 ### add
 - Temporary voice, creator logo and fish tuning update: added a lightweight `/voice` staff-category system for temporary voice channels with setup/status controls, owner or staff room actions, rename, limit, lock, unlock, transfer, one active room per owner, a configurable active-room cap, the required `GuildVoiceStates` intent, stricter lock handling that blocks regular members while keeping the configured mod role and administrators able to join, startup cleanup for empty or missing rooms, guild-leave cleanup for temporary voice rows, and temporary voice log suppression to keep server logs clean. Added local logo thumbnail support for creator announcements and Steam/Epic free game posts, applied Twitch/YouTube thumbnails to automatic and manual creator posts, improved free game offer end dates with relative and full Discord timestamps, added clearer channel log title emojis, slightly increased legendary and mythic fish catch odds while keeping them rare, documented temporary voice storage and the decision to avoid birthday data, and bumped Lumi to 5.10.0.
