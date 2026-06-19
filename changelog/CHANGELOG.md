@@ -1,5 +1,10 @@
 # Changelog
 
+## [5.10.2] - 2026-06-20
+### fix
+- Fish rank hotfix: removed the mythic-only wall from Diamond, Master and Grandmaster progression so strong legendary seasonal records can keep advanced players in the intended high ranks, while Challenger still remains the final mythic-level chase rank.
+
+
 ## [5.10.1] - 2026-06-20
 ### fix
 - Fish balance patch: made high seasonal ranks less frustrating by lowering the Grandmaster and Challenger score/catch walls, increased rare/epic/legendary/mythic catch odds while keeping mythic rare, made high-rarity fishing spots favor the storm cache more often, raised late-rarity score ranges and spot bonuses slightly, made fish weights feel more rewarding, sanitized database-unavailable logs during fish and moderation cleanup tasks, and bumped Lumi to 5.10.1.
