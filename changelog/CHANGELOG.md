@@ -1,5 +1,10 @@
 # Changelog
 
+## [5.10.3] - 2026-06-22
+### fix
+- Configuration panel hotfix: prevented the anti-spam ignored-channel picker from being rendered twice when opened through the generic settings selector, fixing Discord's duplicated component custom ID error, and extended the local check script to catch duplicated component IDs and invalid slash option ordering before deployment.
+
+
 ## [5.10.2] - 2026-06-20
 ### fix
 - Fish rank hotfix: removed the mythic-only wall from Diamond, Master and Grandmaster progression so strong legendary seasonal records can keep advanced players in the intended high ranks, while Challenger still remains the final mythic-level chase rank.
