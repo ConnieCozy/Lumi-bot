@@ -1,5 +1,10 @@
 # Changelog
 
+## [5.10.4] - 2026-06-28
+### fix
+- Staff role log cleanup: suppressed the generic member-update role log after `/staff` role add/remove actions to avoid duplicate log posts, kept manual member role changes visible, and added the target member avatar thumbnail to the specific `/staff` role log.
+  
+
 ## [5.10.3] - 2026-06-22
 ### fix
 - Configuration panel hotfix: prevented the anti-spam ignored-channel picker from being rendered twice when opened through the generic settings selector, fixing Discord's duplicated component custom ID error, and extended the local check script to catch duplicated component IDs and invalid slash option ordering before deployment.
