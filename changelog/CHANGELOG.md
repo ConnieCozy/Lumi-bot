@@ -2,7 +2,7 @@
 
 ## [5.10.4] - 2026-06-28
 ### fix
-- Staff role log cleanup: suppressed the generic member-update role log after `/staff` role add/remove actions to avoid duplicate log posts, kept manual member role changes visible, and added the target member avatar thumbnail to the specific `/staff` role log.
+- Staff role log cleanup: moved manual role changes into clear role-added/role-removed logs, kept `/staff` role changes in command-origin logs without duplicate member-update posts, kept member-update logs focused on nickname changes, and added the target member avatar thumbnail to role logs.
   
 
 ## [5.10.3] - 2026-06-22
