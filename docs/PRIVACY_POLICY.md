@@ -111,7 +111,6 @@ Le code public de Lumi sert uniquement de vitrine et ne doit pas contenir de sec
 Pour une question ou une demande, utilisez le serveur support Lumi :
 
 https://discord.gg/wJ8xjWJ2Nd
-https://discord.gg/wJ8xjWJ2Nd
 
 
 
