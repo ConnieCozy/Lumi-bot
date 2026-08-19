@@ -1,5 +1,10 @@
 # Changelog
 
+## [5.10.5] - 2026-08-20
+### fix
+- Runtime diagnosis patch: expanded the web health response with Discord readiness details and added a `/ready` endpoint that returns `503` when the Discord client is not connected, making Render/UptimeRobot checks able to distinguish a live web server from a truly connected Lumi bot.
+
+
 ## [5.10.4] - 2026-06-28
 ### fix
 - Staff role log cleanup: moved manual role changes into clear role-added/role-removed logs, kept `/staff` role changes in command-origin logs without duplicate member-update posts, kept member-update logs focused on nickname changes, and added the target member avatar thumbnail to role logs.
