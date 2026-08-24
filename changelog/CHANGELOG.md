@@ -1,5 +1,10 @@
 # Changelog
 
+## [5.11.0] - 2026-08-24
+### improve
+- Stability, security and cleanup update: added Discord Gateway disconnect, reconnect, resume and invalid-session diagnostics with safe automatic process recovery after failed startup or a prolonged outage; replaced the basic web probe with a strict cached `/health` check for Discord and Neon plus a Discord-focused `/ready` endpoint that does not keep the free database compute awake; updated Axios and Discord.js and reduced npm audit findings from ten to three Prisma CLI-only findings reserved for the dedicated Prisma 7 migration; redacted Discord interaction/webhook tokens and the private access code from logs; protected the initial `/staff` panel with the configured moderator-role check; added per-server access-code attempt limits with constant-time hash comparison; tightened free-text limits, server ID validation and weather request timeouts; removed the unused Twitch/YouTube creator command, automatic poster, creator database table, environment variables, local creator logos and GIF reaction command/assets; rebalanced Master, Grandmaster and Challenger fishing progression while increasing legendary and mythic chances without removing the location score bonuses; expanded `npm run check` with free-input and secret-redaction regressions; refreshed private maintenance, architecture, privacy and project documentation; and bumped Lumi to 5.11.0.
+
+
 ## [5.10.5] - 2026-08-20
 ### fix
 - Runtime diagnosis patch: expanded the web health response with Discord readiness details and added a `/ready` endpoint that returns `503` when the Discord client is not connected, making Render/UptimeRobot checks able to distinguish a live web server from a truly connected Lumi bot.
