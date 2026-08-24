@@ -1,6 +1,6 @@
 # Lumi privacy policy
 
-Dernière mise à jour : 2026-06-18
+Dernière mise à jour : 2026-08-24
 
 Cette politique explique quelles données Lumi peut utiliser pour fonctionner sur Discord.
 
@@ -20,7 +20,6 @@ Lumi peut traiter les données suivantes :
 - réglages AutoMod, logs, bienvenue, départ et configuration serveur ;
 - records de pêche : serveur, utilisateur, meilleur score permanent, meilleur score hebdomadaire, résultat de la semaine précédente, score de saison mensuelle, meilleure capture, rareté, poids et compteurs de captures ;
 - données XP/Level : serveur, utilisateur, XP total, niveau, nombre de messages comptés et date du dernier gain XP ;
-- état minimal des annonces créateur : dernier live Twitch ou dernière vidéo YouTube déjà annoncé afin d'éviter les doublons ;
 - données temporaires de tickets ouverts : serveur, salon ticket, utilisateur ayant ouvert le ticket, type, résumé court, statut, staff ayant pris en charge, ID du message de suivi staff et date de création ;
 - état minimal des jeux gratuits : dernière liste Steam/Epic déjà postée par serveur afin d'éviter les doublons ;
 - données temporaires de vocaux privés : serveur, salon vocal temporaire, propriétaire du salon et dates techniques tant que le salon existe ;
@@ -42,7 +41,6 @@ Ces données servent à :
 - protéger les serveurs contre certains abus comme spam, raid ou messages répétés ;
 - afficher le record personnel, le rank saisonnier mensuel et les Top 3 serveur de la commande `/fish` ;
 - afficher les profils XP/Level, le classement serveur et les annonces de passage de niveau ;
-- publier automatiquement les débuts de live Twitch et nouvelles vidéos YouTube configurés pour le serveur principal ;
 - créer, suivre et fermer des tickets privés entre un membre et le staff du serveur ;
 - afficher ou poster les jeux gratuits Steam/Epic dans un salon configuré ;
 - créer et nettoyer des salons vocaux temporaires configurés par le staff ;
@@ -75,8 +73,6 @@ Les records de pêche inactifs peuvent être supprimés automatiquement après u
 Les profils XP/Level gardent une ligne légère par joueur et par serveur. Lumi ne compte que les messages texte éligibles avec un cooldown anti-spam. Les salons tickets temporaires et le vocal ne donnent pas d'XP. Quand un membre quitte un serveur, sa ligne XP/Level et ses records de pêche du serveur sont supprimés automatiquement.
 
 Les panneaux de rôles à boutons ne stockent pas l'état de chaque membre dans la base de données. Lumi applique le rôle au moment du clic et Discord conserve ensuite l'état réel du membre.
-
-Les annonces automatiques Twitch/YouTube ne stockent pas d'historique complet. Lumi conserve seulement le dernier identifiant annoncé par source pour éviter de republier le même live ou la même vidéo après un redémarrage.
 
 Les tickets ne stockent pas les messages dans la base de données. Lumi garde seulement une ligne temporaire pendant que le ticket est ouvert: type, résumé court, statut, prise en charge staff et ID du message de suivi staff. Quand le ticket est fermé, cette ligne est supprimée. Si un salon de suivi ticket est configuré, le message Discord final reste dans le serveur et sa conservation dépend alors des réglages du serveur Discord concerné.
 
@@ -111,6 +107,7 @@ Le code public de Lumi sert uniquement de vitrine et ne doit pas contenir de sec
 Pour une question ou une demande, utilisez le serveur support Lumi :
 
 https://discord.gg/wJ8xjWJ2Nd
+
 
 
 
