@@ -1,6 +1,6 @@
 # Lumi terms of service
 
-Dernière mise à jour : 2026-06-13
+Dernière mise à jour : 2026-08-25
 
 Ces conditions décrivent les règles d'utilisation de Lumi.
 
@@ -8,7 +8,7 @@ En invitant ou en utilisant Lumi sur un serveur Discord, vous acceptez ces condi
 
 ## Utilisation de Lumi
 
-Lumi est fournie comme assistante Discord premium privée pour aider des serveurs choisis avec :
+Lumi est fournie comme assistante Discord privée pour aider des serveurs choisis avec :
 
 - modération ;
 - logs ;
@@ -41,7 +41,7 @@ Lumi est fournie en développement actif.
 
 Le bot peut être indisponible temporairement en cas de maintenance, incident Discord, hébergement, base de données ou mise à jour.
 
-Pendant la phase premium privée, Lumi limite volontairement le nombre de serveurs acceptés et peut limiter la taille des serveurs invités. L'accès peut être permanent, accordé après demande validée, ou limité dans le temps pour un essai.
+Pendant sa phase privée, Lumi limite volontairement le nombre de serveurs acceptés et peut limiter la taille des serveurs invités. L'accès peut être permanent, accordé après demande validée, ou limité dans le temps pour un essai.
 
 Si un serveur n'est pas autorisé, dépasse la capacité, dépasse la taille configurée ou arrive en fin d'essai, Lumi peut refuser l'accès, prévenir le serveur concerné, le quitter automatiquement et nettoyer les données liées.
 
@@ -64,4 +64,5 @@ La politique de confidentialité est disponible ici :
 Pour une question, un bug ou une demande, utilisez le serveur support Lumi :
 
 https://discord.gg/wJ8xjWJ2Nd
+
 
