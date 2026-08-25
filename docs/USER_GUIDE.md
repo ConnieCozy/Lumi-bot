@@ -79,7 +79,18 @@ Le staff peut régler le système avec:
 
 Les rangs Lumi sont visuels uniquement. Ils ne donnent pas de rôle Discord.
 
-## 6. Jeux gratuits
+Un profil sans activité peut être supprimé automatiquement après la durée de conservation configurée, fixée à 180 jours par défaut.
+
+## 6. Pêche numérique
+
+`/fish catch` lance une pêche et affiche une carte courte : prise, rareté, poids, score, niveau du lieu et position hebdomadaire.
+
+Les informations détaillées sont séparées pour garder les captures rapides à lire :
+
+- `/fish profile` affiche la carte pêcheur et la progression de saison ;
+- `/fish top` affiche les classements du serveur.
+
+## 7. Jeux gratuits
 
 Commande réservée au staff/admin serveur.
 
@@ -95,7 +106,7 @@ Lumi utilise un cache pour éviter les appels inutiles et ne pas reposter la mê
 
 `/freegames post` publie les annonces complètes dans le salon configuré, avec une carte par jeu quand une image est disponible.
 
-## 7. Vocaux temporaires
+## 8. Vocaux temporaires
 
 Le staff peut activer un salon déclencheur avec:
 
@@ -114,3 +125,13 @@ Le propriétaire du vocal peut utiliser:
 - `/voice transfer` pour donner la gestion à une autre personne présente dans le vocal.
 
 Le staff peut aussi utiliser ces actions si besoin. Lumi garde une limite de vocaux actifs pour éviter les abus.
+
+## 9. État de Lumi
+
+La page publique [État de Lumi](https://lumi-bot-r4in.onrender.com/status) permet de vérifier séparément :
+
+- le processus Render ;
+- la connexion Discord Gateway ;
+- la disponibilité de Neon.
+
+Cette page n'affiche aucun identifiant de serveur, d'utilisateur ou secret.
