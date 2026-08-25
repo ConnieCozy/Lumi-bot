@@ -20,6 +20,8 @@ Quand Lumi quitte ou est retirée d'un serveur, les données liées à ce serveu
 
 Quand un membre quitte un serveur, Lumi supprime automatiquement ses données XP/Level et ses records de pêche liés à ce serveur. Les cas de modération restent liés au serveur afin de préserver l'historique staff.
 
+Les profils XP/Level sans activité peuvent également être supprimés automatiquement après 180 jours afin de limiter la conservation de lignes inactives.
+
 Les vocaux temporaires ne contiennent pas d'audio ni d'historique de conversation. Ils sont supprimés de la base quand le salon temporaire est supprimé.
 
 ## Qui peut faire une demande
