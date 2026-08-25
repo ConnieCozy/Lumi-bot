@@ -2,15 +2,15 @@
   <img src="assets/banner.png" width="900" alt="Lumi banner">
 </p>
 
-<h1 align="center">⚡ Lumi Premium Private Assistant</h1>
+<h1 align="center">⚡ Lumi</h1>
 
 <p align="center">
   Une assistante Discord francophone privée pour modérer, logger, aider la communauté et ajouter une petite étincelle au serveur.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-5.11.0-4AA3FF?style=for-the-badge" alt="Version 5.11.0">
-  <img src="https://img.shields.io/badge/Premium-Private%20Assistant-111827?style=for-the-badge" alt="Premium Private Assistant">
+  <img src="https://img.shields.io/badge/Version-6.0.0-4AA3FF?style=for-the-badge" alt="Version 6.0.0">
+  <img src="https://img.shields.io/badge/Access-Private-111827?style=for-the-badge" alt="Private access">
   <img src="https://img.shields.io/badge/Node.js-powered-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
   <img src="https://img.shields.io/badge/Discord.js-v14-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord.js v14">
   <img src="https://img.shields.io/badge/Prisma-ready-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma">
@@ -27,11 +27,11 @@
 
 ## ✨ Qui est Lumi ?
 
-Lumi est une assistante IA Discord francophone **premium privée**, créée par **ConnieCozy** et développée avec **HexBoon Development**.
+Lumi est une assistante Discord francophone privée, créée par **ConnieCozy** et développée avec **HexBoon Development**.
 
 Elle est pensée pour accompagner quelques communautés choisies sur le long terme : modération, logs, utilitaires, AutoMod, commandes fun, outils d'assistance et petites interactions qui donnent plus de vie au serveur.
 
-Lumi n'est pas juste un bot à commandes. Dans son lore, c'est une petite assistante IA douce, drôle, parfois sarcastique, toujours un peu électrique.
+Lumi n'est pas juste un bot à commandes. Dans son lore, c'est une petite assistante numérique douce, drôle, parfois sarcastique, toujours un peu électrique.
 
 > Short English summary: Lumi is a French Discord bot focused on moderation, logs, utility commands and long-term community tools.
 
@@ -57,7 +57,7 @@ Lumi propose aussi des commandes pratiques et fun pour rendre le serveur plus vi
 
 ### ⚡ Une vraie personnalité
 
-Au-delà des commandes, Lumi garde une identité reconnaissable : une assistante IA douce, drôle, un peu sarcastique, et toujours branchée sur le courant.
+Au-delà des commandes, Lumi garde une identité reconnaissable : une assistante numérique douce, drôle, un peu sarcastique, et toujours branchée sur le courant.
 
 ---
 
@@ -65,7 +65,7 @@ Au-delà des commandes, Lumi garde une identité reconnaissable : une assistante
 
 Lumi est en phase stable avec maintenance suivie.
 
-Le projet continue d'évoluer plus calmement comme une assistante privée/premium : peu de serveurs, plus de soin, des ajouts réfléchis, et une base technique prête à évoluer plus largement un jour si l'infrastructure suit.
+Le projet continue d'évoluer plus calmement comme une assistante privée : peu de serveurs, plus de soin, des ajouts réfléchis, et une base technique prête à évoluer plus largement un jour si l'infrastructure suit.
 
 Chaque version sert à rendre Lumi plus fiable, plus agréable et plus facile à maintenir sur le long terme.
 
@@ -79,7 +79,7 @@ Lumi est construite avec :
 
 - **Node.js** pour le runtime
 - **Discord.js v14** pour l'intégration Discord
-- **Prisma** pour l'accès base de données
+- **Prisma 7** pour l'accès base de données
 - **PostgreSQL / Neon** pour les données
 - **Render** pour l'hébergement
 - **GitHub** pour le suivi du projet
@@ -107,7 +107,7 @@ Lumi est construite avec :
 - [x] Gestion staff sécurisée des rôles v4.4
 - [x] Logs précis, docs publiques et AutoMod plus clair v4.5
 - [x] Pêche hebdomadaire et limite serveur v4.6
-- [x] Direction Premium Private Assistant v5.0
+- [x] Direction assistante privée v5.0
 - [x] Logs lisibles, rétention data et audit UX v5.1
 - [x] Logs serveur propres et pêche allégée v5.2
 - [x] Rank saisonnier mensuel pour la pêche v5.3
@@ -120,12 +120,12 @@ Lumi est construite avec :
 - [x] Tickets avec suivi staff unique et jeux gratuits Steam/Epic v5.9
 - [x] Vocaux temporaires légers et annonces visuelles v5.10
 - [x] Supervision externe, récupération Gateway et nettoyage créateur v5.11
-- [ ] Documentation utilisateur complète
+- [x] Documentation utilisateur et dossier vitrine v6.0
 - [x] Audit des commandes, dépendances et garde-fous v5.11
-- [ ] Migration dédiée vers Prisma 7
+- [x] Migration dédiée vers Prisma 7 v6.0
 - [ ] Parcours utilisateur Lumi plus clair : aide, configuration, onboarding et commandes regroupées
 - [ ] Outils communautaires avancés
-- [ ] Fonctions assistant sans IA payante
+- [ ] Fonctions d'assistance sans service payant
 - [ ] Dashboard web
 
 ---
@@ -134,6 +134,7 @@ Lumi est construite avec :
 
 - 💬 Support Discord : [Lumi Support](https://discord.gg/wJ8xjWJ2Nd)
 - ⚡ Ajouter Lumi : [Invitation Discord](https://discord.com/oauth2/authorize?client_id=1349552568069787698&permissions=8&integration_type=0&scope=bot+applications.commands)
+- 🟢 État des systèmes : [Statut de Lumi](https://lumi-bot-r4in.onrender.com/status)
 - ⚡ Projet : développé avec soin par **ConnieCozy** et **HexBoon Development**
 
 ---
