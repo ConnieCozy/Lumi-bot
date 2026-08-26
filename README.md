@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-6.0.1-4AA3FF?style=for-the-badge" alt="Version 6.0.1">
+  <img src="https://img.shields.io/badge/Version-6.1.0-4AA3FF?style=for-the-badge" alt="Version 6.1.0">
   <img src="https://img.shields.io/badge/Access-Private-111827?style=for-the-badge" alt="Private access">
   <img src="https://img.shields.io/badge/Node.js-powered-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
   <img src="https://img.shields.io/badge/Discord.js-v14-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord.js v14">
@@ -20,7 +20,7 @@
   <img src="https://img.shields.io/badge/Langue-FR%20first-0055FF?style=for-the-badge" alt="Langue FR first">
   <img src="https://img.shields.io/badge/Mood-Sweet%20%2B%20sarcastic-FFD43B?style=for-the-badge" alt="Mood sweet and sarcastic">
   <img src="https://img.shields.io/badge/Energy-electric-FFE066?style=for-the-badge" alt="Energy electric">
-  <img src="https://img.shields.io/badge/Status-active%20maintenance-FFB7D5?style=for-the-badge" alt="Active maintenance">
+  <img src="https://img.shields.io/badge/Status-Online-3FB950?style=for-the-badge" alt="Status online">
 </p>
 
 ---
@@ -123,6 +123,7 @@ Lumi est construite avec :
 - [x] Documentation utilisateur et dossier vitrine v6.0
 - [x] Audit des commandes, dépendances et garde-fous v5.11
 - [x] Migration dédiée vers Prisma 7 v6.0
+- [x] Organisation des panneaux, liens officiels et maintenance runtime v6.1
 - [ ] Parcours utilisateur Lumi plus clair : aide, configuration, onboarding et commandes regroupées
 - [ ] Outils communautaires avancés
 - [ ] Fonctions d'assistance sans service payant
@@ -133,7 +134,7 @@ Lumi est construite avec :
 ## 🌐 Liens
 
 - 💬 Support Discord : [Lumi Support](https://discord.gg/wJ8xjWJ2Nd)
-- ⚡ Ajouter Lumi : [Invitation Discord](https://discord.com/oauth2/authorize?client_id=1349552568069787698&permissions=8&integration_type=0&scope=bot+applications.commands)
+- ⚡ Ajouter Lumi : [Invitation Discord](https://discord.com/oauth2/authorize?client_id=1349552568069787698&permissions=1099798015126&integration_type=0&scope=bot+applications.commands)
 - 🟢 État des systèmes : [Statut de Lumi](https://lumi-bot-r4in.onrender.com/status)
 - ⚡ Projet : développé avec soin par **ConnieCozy** et **HexBoon Development**
 
@@ -163,5 +164,4 @@ Le fichier `LICENSE` du dépôt public précise les conditions complètes.
 <p align="center">
   ⚡ Lumi veille. Probablement avec un peu trop d'énergie.
 </p>
-
 
