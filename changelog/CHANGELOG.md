@@ -1,5 +1,9 @@
 # Changelog
 
+## [6.1.0] - 2026-08-25
+### improve
+- Code organization, command UX and runtime maintenance update: removed the unused `/spark` command; simplified `/community` around official status, support, repository, access and policy links; centralized official URLs and replaced the Administrator invite with a scoped permission set; kept lightweight slash entry files while moving the full `/configuration`, `/moderation` and `/staff` panel implementations into dedicated feature modules; streamlined the interaction router with shared imports; allowed Lumi to finish starting when daily Neon maintenance is temporarily unavailable; removed redundant fishing cleanup queries from user commands in favor of the existing daily retention task; added bounded cleanup for temporary log suppressions, channel markers, duel timers, staff sessions and ticket deletion timers; strengthened event-module validation and graceful runtime timer cleanup; updated Prisma packages to 7.10.0; removed empty accidental project directories; refreshed architecture, maintenance, user guide and public README documentation; and bumped Lumi to 6.1.0.
+
 ## [6.0.1] - 2026-08-25
 ### fix
 - Steam rate-limit and status-page patch: replaced concurrent temporary-promotion validation bursts with a paced sequential queue and bounded `429` retries, reduced the number of candidates checked per cycle, collapsed validation failures into one safe source warning, prevented automatic free-game posts from publishing or saving incomplete source results during a temporary Steam limit, added a `/ready` fallback and clearer temporary-read messaging to the public status page, and made `docs/vitrine` the single source for public documentation instead of maintaining duplicate copies.
