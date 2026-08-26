@@ -128,6 +128,8 @@ Le staff peut aussi utiliser ces actions si besoin. Lumi garde une limite de voc
 
 ## 9. État de Lumi
 
+La commande `/community` rassemble dans un seul message les liens officiels, l'invitation privée, le support, la vitrine GitHub, les documents publics et l'état des systèmes.
+
 La page publique [État de Lumi](https://lumi-bot-r4in.onrender.com/status) permet de vérifier séparément :
 
 - le processus Render ;
