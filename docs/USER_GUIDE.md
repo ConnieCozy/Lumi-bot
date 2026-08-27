@@ -13,9 +13,17 @@ Utilise `/configuration` pour régler les éléments importants du serveur:
 - rôle vérifié;
 - messages de bienvenue et de départ.
 
+Le panneau est divisé en trois onglets simples: **Général**, **Logs** et **AutoMod**. Choisis le réglage à modifier, puis recherche directement le rôle ou le salon dans la liste Discord. La valeur actuelle reste visible et peut être retirée avec le bouton prévu.
+
 Lumi laisse volontairement les permissions Discord faire leur travail. Pour un serveur sécurisé, garde les salons sensibles invisibles au rôle non vérifié, puis ouvre-les au rôle vérifié ou membre.
 
-## 2. Vérification
+## 2. Panneaux de modération et staff
+
+`/moderation` rassemble les sanctions, les retraits, le casier et le slowmode. Le membre ciblé peut être recherché directement dans le panneau, sans relancer la commande.
+
+`/staff` rassemble le statut, la communication, la gestion des membres et le nettoyage. Les sélections de salon, membre et rôle restent affichées pendant la session.
+
+## 3. Vérification
 
 Le système de vérification fonctionne avec un panneau.
 
@@ -29,7 +37,7 @@ Le membre n'a pas besoin de taper une commande:
 
 Le reste du parcours dépend du serveur: règlement, rôle membre, salons visibles, ou autre système maison.
 
-## 3. Tickets
+## 4. Tickets
 
 Le staff publie un panneau avec `/ticket panel`.
 
@@ -53,9 +61,9 @@ Le salon de logs ticket affiche une fiche de suivi unique côté staff. Lumi la 
 
 À la fermeture, le staff doit indiquer une raison. Lumi passe la fiche de suivi en fermé, puis supprime la donnée temporaire du ticket.
 
-## 4. Rôles à boutons
+## 5. Rôles à boutons
 
-`/roles panel` permet de créer des panneaux de rôles.
+`/roles panel title:Mon panneau` ouvre un constructeur privé pendant dix minutes. Recherche jusqu'à dix rôles, utilise l'aperçu, puis publie. Cette préparation temporaire ne stocke rien dans la base de données.
 
 Modes disponibles:
 
@@ -65,7 +73,7 @@ Modes disponibles:
 
 Lumi refuse les rôles trop dangereux, au-dessus d'elle, gérés par une intégration ou contenant des permissions sensibles.
 
-## 5. XP et niveaux
+## 6. XP et niveaux
 
 `/level profile` affiche le profil XP d'un membre.
 
@@ -81,7 +89,7 @@ Les rangs Lumi sont visuels uniquement. Ils ne donnent pas de rôle Discord.
 
 Un profil sans activité peut être supprimé automatiquement après la durée de conservation configurée, fixée à 180 jours par défaut.
 
-## 6. Pêche numérique
+## 7. Pêche numérique
 
 `/fish catch` lance une pêche et affiche une carte courte : prise, rareté, poids, score, niveau du lieu et position hebdomadaire.
 
@@ -90,7 +98,7 @@ Les informations détaillées sont séparées pour garder les captures rapides �
 - `/fish profile` affiche la carte pêcheur et la progression de saison ;
 - `/fish top` affiche les classements du serveur.
 
-## 7. Jeux gratuits
+## 8. Jeux gratuits
 
 Commande réservée au staff/admin serveur.
 
@@ -106,7 +114,7 @@ Lumi utilise un cache pour éviter les appels inutiles et ne pas reposter la mê
 
 `/freegames post` publie les annonces complètes dans le salon configuré, avec une carte par jeu quand une image est disponible.
 
-## 8. Vocaux temporaires
+## 9. Vocaux temporaires
 
 Le staff peut activer un salon déclencheur avec:
 
@@ -126,7 +134,7 @@ Le propriétaire du vocal peut utiliser:
 
 Le staff peut aussi utiliser ces actions si besoin. Lumi garde une limite de vocaux actifs pour éviter les abus.
 
-## 9. État de Lumi
+## 10. État de Lumi
 
 La commande `/community` rassemble dans un seul message les liens officiels, l'invitation privée, le support, la vitrine GitHub, les documents publics et l'état des systèmes.
 
