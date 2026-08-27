@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-6.1.0-4AA3FF?style=for-the-badge" alt="Version 6.1.0">
+  <img src="https://img.shields.io/badge/Version-6.2.0-4AA3FF?style=for-the-badge" alt="Version 6.2.0">
   <img src="https://img.shields.io/badge/Access-Private-111827?style=for-the-badge" alt="Private access">
   <img src="https://img.shields.io/badge/Node.js-powered-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
   <img src="https://img.shields.io/badge/Discord.js-v14-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord.js v14">
@@ -88,46 +88,19 @@ Lumi est construite avec :
 
 ## 🗺️ Roadmap
 
-- [x] Commandes slash
-- [x] Système de modération
-- [x] Système de logs
-- [x] AutoMod
-- [x] Stabilisation et sécurité v3.2
-- [x] UX commandes et personnalité v3.3
-- [x] Lumi Assistant Light v3.6
-- [x] Logs de modération et visibilité staff v3.7
-- [x] Messages de bienvenue et départ v3.8
-- [x] Dashboard Discord interne de configuration v4.0
-- [x] Panneau de modération concentré v4.1
-- [x] Nettoyage XP/level pour alléger Neon v4.1
-- [x] Outils staff et UX jeux v4.2
-- [x] Guide d'arrivée serveur v4.2
-- [x] Logs serveur et séries BO3 en mémoire v4.3
-- [x] Nettoyage des données inutilisées pour Neon v4.3
-- [x] Gestion staff sécurisée des rôles v4.4
-- [x] Logs précis, docs publiques et AutoMod plus clair v4.5
-- [x] Pêche hebdomadaire et limite serveur v4.6
-- [x] Direction assistante privée v5.0
-- [x] Logs lisibles, rétention data et audit UX v5.1
-- [x] Logs serveur propres et pêche allégée v5.2
-- [x] Rank saisonnier mensuel pour la pêche v5.3
-- [x] Rôle automatique sécurisé à l'arrivée v5.3
-- [x] Vérification membre et rôles à boutons v5.4
-- [x] Tickets privés légers et logs de salons plus lisibles v5.5
-- [x] XP/Level léger, archives tickets et logs temporaires propres v5.6
-- [x] Duel unifié et stabilisation interactions v5.7
-- [x] Rangs visuels Lumi pour XP/Level v5.8
-- [x] Tickets avec suivi staff unique et jeux gratuits Steam/Epic v5.9
-- [x] Vocaux temporaires légers et annonces visuelles v5.10
-- [x] Supervision externe, récupération Gateway et nettoyage créateur v5.11
-- [x] Documentation utilisateur et dossier vitrine v6.0
-- [x] Audit des commandes, dépendances et garde-fous v5.11
-- [x] Migration dédiée vers Prisma 7 v6.0
-- [x] Organisation des panneaux, liens officiels et maintenance runtime v6.1
-- [ ] Parcours utilisateur Lumi plus clair : aide, configuration, onboarding et commandes regroupées
-- [ ] Outils communautaires avancés
-- [ ] Fonctions d'assistance sans service payant
-- [ ] Dashboard web
+### Acquis
+
+- [x] Modération, logs, AutoMod et garde-fous de sécurité
+- [x] Configuration, staff, rôles, vérification, tickets et vocaux temporaires
+- [x] XP/Level, pêche, duels et annonces de jeux gratuits
+- [x] Prisma 7, rétention des données et supervision externe
+- [x] Documentation publique et panneaux Discord ergonomiques
+
+### Suite possible
+
+- [ ] Outils communautaires choisis selon les besoins réels des serveurs
+- [ ] Fonctions d'assistance légères sans service payant
+- [ ] Dashboard web uniquement si les panneaux Discord ne suffisent plus
 
 ---
 
@@ -164,4 +137,5 @@ Le fichier `LICENSE` du dépôt public précise les conditions complètes.
 <p align="center">
   ⚡ Lumi veille. Probablement avec un peu trop d'énergie.
 </p>
+
 
