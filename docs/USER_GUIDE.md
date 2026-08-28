@@ -134,7 +134,27 @@ Le propriétaire du vocal peut utiliser:
 
 Le staff peut aussi utiliser ces actions si besoin. Lumi garde une limite de vocaux actifs pour éviter les abus.
 
-## 10. État de Lumi
+## 10. Assistant local de Lumi
+
+`/lumi ask question:comment ouvrir un ticket ?` aide à retrouver la commande adaptée avec une question simple.
+
+Lumi cherche uniquement dans son catalogue local de commandes. La question n'est envoyée à aucun service externe et n'est pas enregistrée dans Neon. Elle propose jusqu'à trois chemins utiles avec leur utilisation et leur niveau d'accès, sans afficher les commandes réservées au développement.
+
+## 11. Jeux légers
+
+`/game game:LUMOT` lance **LUMOT**, le jeu de mots du flux. La première lettre est révélée et les couleurs indiquent les lettres bien placées, présentes ou absentes. Le mode peut être solo ou coopératif.
+
+`/game game:Memory` lance une grille Memory personnelle. Trois difficultés règlent la taille de la grille.
+
+Les parties utilisent une session temporaire de cinq minutes en mémoire. Elles ne créent aucune ligne dans Neon et une seule partie peut être active par salon afin d'éviter le spam.
+
+## 12. Sondages
+
+`/poll` ouvre un formulaire réservé au staff ou aux membres qui peuvent gérer les messages. Il accepte entre deux et dix réponses, une durée de 1 heure à 32 jours et un choix simple ou multiple.
+
+Le sondage utilise le système natif de Discord. Lumi ne stocke ni les réponses ni les votes dans Neon.
+
+## 13. État de Lumi
 
 La commande `/community` rassemble dans un seul message les liens officiels, l'invitation privée, le support, la vitrine GitHub, les documents publics et l'état des systèmes.
 
@@ -145,3 +165,4 @@ La page publique [État de Lumi](https://lumi-bot-r4in.onrender.com/status) perm
 - la disponibilité de Neon.
 
 Cette page n'affiche aucun identifiant de serveur, d'utilisateur ou secret.
+
