@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-6.2.0-4AA3FF?style=for-the-badge" alt="Version 6.2.0">
+  <img src="https://img.shields.io/badge/Version-6.3.0-4AA3FF?style=for-the-badge" alt="Version 6.3.0">
   <img src="https://img.shields.io/badge/Access-Private-111827?style=for-the-badge" alt="Private access">
   <img src="https://img.shields.io/badge/Node.js-powered-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
   <img src="https://img.shields.io/badge/Discord.js-v14-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord.js v14">
@@ -77,7 +77,7 @@ Pendant la phase privée actuelle, Lumi fonctionne avec une limite volontaire de
 
 Lumi est construite avec :
 
-- **Node.js** pour le runtime
+- **Node.js 24 LTS** pour le runtime
 - **Discord.js v14** pour l'intégration Discord
 - **Prisma 7** pour l'accès base de données
 - **PostgreSQL / Neon** pour les données
@@ -92,7 +92,8 @@ Lumi est construite avec :
 
 - [x] Modération, logs, AutoMod et garde-fous de sécurité
 - [x] Configuration, staff, rôles, vérification, tickets et vocaux temporaires
-- [x] XP/Level, pêche, duels et annonces de jeux gratuits
+- [x] XP/Level, pêche, duels, LUMOT, Memory et annonces de jeux gratuits
+- [x] Assistant local de commandes et sondages Discord natifs
 - [x] Prisma 7, rétention des données et supervision externe
 - [x] Documentation publique et panneaux Discord ergonomiques
 
@@ -119,6 +120,8 @@ Lumi est construite avec :
 - [Terms of Service](docs/TERMS_OF_SERVICE.md)
 - [Data Requests](docs/DATA_REQUESTS.md)
 - [User Guide](docs/USER_GUIDE.md)
+- [Changelog](changelog/CHANGELOG.md)
+- [Archives des anciennes versions](changelog/)
 
 ---
 
