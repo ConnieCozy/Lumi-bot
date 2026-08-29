@@ -1,6 +1,6 @@
 # Lumi privacy policy
 
-Dernière mise à jour : 2026-08-25
+Dernière mise à jour : 2026-08-28
 
 Cette politique explique quelles données Lumi peut utiliser pour fonctionner sur Discord.
 
@@ -22,8 +22,10 @@ Lumi peut traiter les données suivantes :
 - données XP/Level : serveur, utilisateur, XP total, niveau, nombre de messages comptés et date du dernier gain XP ;
 - données temporaires de tickets ouverts : serveur, salon ticket, utilisateur ayant ouvert le ticket, type, résumé court, statut, staff ayant pris en charge, ID du message de suivi staff et date de création ;
 - état minimal des jeux gratuits : dernière liste Steam/Epic déjà postée par serveur afin d'éviter les doublons ;
-- données temporaires de vocaux privés : serveur, salon vocal temporaire, propriétaire du salon et dates techniques tant que le salon existe ;
+- données temporaires de vocaux privés : serveur, salon vocal temporaire, propriétaire, ID du panneau, mode d'accès, accès individuels et copie technique des permissions à restaurer tant que le salon existe ;
 - contenu transmis volontairement via une commande de feedback.
+
+Quand une personne mentionne directement Lumi, le contenu de ce message est traité localement le temps de préparer la réponse. Il n'est pas enregistré dans Neon et n'est envoyé à aucun service d'intelligence artificielle externe.
 
 Lumi ne stocke pas d'économie, d'inventaire social permanent, de contenu audio ou de dates d'anniversaire.
 
@@ -44,6 +46,8 @@ Ces données servent à :
 - créer, suivre et fermer des tickets privés entre un membre et le staff du serveur ;
 - afficher ou poster les jeux gratuits Steam/Epic dans un salon configuré ;
 - créer et nettoyer des salons vocaux temporaires configurés par le staff ;
+- restaurer les permissions et le panneau d'un vocal temporaire après un redémarrage ;
+- répondre localement à une mention directe lorsque le serveur active cette fonction ;
 - recevoir des retours d'administrateurs via `/feedback`.
 
 ## Logs Discord
@@ -80,7 +84,7 @@ Les tickets ne stockent pas les messages dans la base de données. Lumi garde se
 
 Les jeux gratuits Steam/Epic ne stockent pas d'historique complet. Lumi conserve seulement la dernière signature postée par serveur pour éviter de republier la même liste.
 
-Les vocaux temporaires ne stockent aucun contenu audio. Lumi conserve seulement la ligne technique du vocal actif afin de savoir quel salon supprimer quand il devient vide. Quand le vocal est supprimé, la ligne est supprimée aussi.
+Les vocaux temporaires ne stockent aucun contenu audio. Lumi conserve seulement la ligne technique du vocal actif afin de restaurer son panneau, son mode d'accès et les permissions modifiées. Les IDs de membres autorisés ou retirés restent limités à ce vocal actif. Quand le vocal est supprimé, toute cette ligne est supprimée aussi.
 
 Lumi ne stocke pas les dates d'anniversaire des membres. Le module anniversaire est volontairement écarté pour éviter d'ajouter des données personnelles non nécessaires.
 
@@ -109,6 +113,7 @@ Le code public de Lumi sert uniquement de vitrine et ne doit pas contenir de sec
 Pour une question ou une demande, utilisez le serveur support Lumi :
 
 https://discord.gg/wJ8xjWJ2Nd
+
 
 
 
