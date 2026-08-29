@@ -14,7 +14,7 @@ Lumi stocke seulement les données nécessaires au fonctionnement du bot :
 - tickets ouverts : serveur, salon ticket, utilisateur ayant ouvert le ticket, type, résumé court, statut, staff ayant pris en charge, ID du message de suivi staff et date de création. Les tickets fermés sont supprimés de la base de données, avec résumé Discord optionnel si un salon de suivi ticket est configuré ;
 - profils XP/Level : serveur, utilisateur, XP total, niveau, messages comptés et dernier gain XP ;
 - cache jeux gratuits : dernière signature Steam/Epic postée par serveur pour éviter les doublons ;
-- vocaux temporaires actifs : serveur, salon vocal temporaire, propriétaire et dates techniques tant que le salon existe.
+- vocaux temporaires actifs : serveur, salon vocal temporaire, propriétaire, message du panneau, mode d'accès, permissions à restaurer, accès individuels et dates techniques tant que le salon existe.
 
 Quand Lumi quitte ou est retirée d'un serveur, les données liées à ce serveur sont supprimées automatiquement de la base de données de Lumi.
 
@@ -22,7 +22,9 @@ Quand un membre quitte un serveur, Lumi supprime automatiquement ses données XP
 
 Les profils XP/Level sans activité peuvent également être supprimés automatiquement après 180 jours afin de limiter la conservation de lignes inactives.
 
-Les vocaux temporaires ne contiennent pas d'audio ni d'historique de conversation. Ils sont supprimés de la base quand le salon temporaire est supprimé.
+Les vocaux temporaires ne contiennent pas d'audio ni d'historique de conversation. Les informations de panneau et de permissions sont supprimées de la base avec le salon temporaire.
+
+Les questions adressées à Lumi par `/lumi ask` ou par mention directe ne sont pas enregistrées dans la base de données.
 
 ## Qui peut faire une demande
 
@@ -78,6 +80,7 @@ Les demandes liées aux données doivent être faites sur le serveur support Lum
 La commande `/feedback` sert uniquement à transmettre une suggestion, un bug ou un retour court. Elle ne permet pas d'assurer un suivi ni de répondre directement à une demande de données.
 
 Pour une demande sensible, éviter de publier des IDs et captures dans un salon public.
+
 
 
 
