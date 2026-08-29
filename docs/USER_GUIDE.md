@@ -124,21 +124,35 @@ Le staff peut activer un salon déclencheur avec:
 
 Quand un membre rejoint ce salon, Lumi crée un vocal temporaire, le déplace dedans, puis supprime le vocal quand il devient vide.
 
-Le propriétaire du vocal peut utiliser:
+Lumi publie automatiquement un panneau dans le chat du vocal. Le propriétaire et le staff peuvent y :
+
+- renommer le vocal et régler le nombre de places ;
+- choisir un mode ouvert, verrouillé ou privé ;
+- autoriser une personne ou lui retirer l'accès ;
+- transférer la propriété à une personne présente ;
+- actualiser le panneau.
+
+Les commandes restent disponibles comme solution de secours :
 
 - `/voice rename` pour renommer son vocal;
 - `/voice limit` pour régler le nombre de places;
 - `/voice lock` pour fermer les nouvelles entrées;
 - `/voice unlock` pour rouvrir;
+- `/voice private` pour cacher le vocal aux personnes non autorisées;
 - `/voice transfer` pour donner la gestion à une autre personne présente dans le vocal.
+- `/voice panel` pour vérifier ou republier le panneau.
 
-Le staff peut aussi utiliser ces actions si besoin. Lumi garde une limite de vocaux actifs pour éviter les abus.
+Le staff peut aussi utiliser ces actions si besoin. Lumi garde une limite de vocaux actifs pour éviter les abus et récupère les modes d'accès après un redémarrage.
 
 ## 10. Assistant local de Lumi
 
 `/lumi ask question:comment ouvrir un ticket ?` aide à retrouver la commande adaptée avec une question simple.
 
 Lumi cherche uniquement dans son catalogue local de commandes. La question n'est envoyée à aucun service externe et n'est pas enregistrée dans Neon. Elle propose jusqu'à trois chemins utiles avec leur utilisation et leur niveau d'accès, sans afficher les commandes réservées au développement.
+
+Il est aussi possible de mentionner directement Lumi dans un message, par exemple `@Lumi comment ouvrir un ticket ?`. Elle répond aux salutations, aux remerciements et aux questions simples sur ses commandes. Ces messages ne sont pas stockés et un délai anti-spam limite les réponses répétées.
+
+Le staff peut activer ou désactiver les réponses aux mentions depuis `/configuration` > **Général**.
 
 ## 11. Jeux légers
 
@@ -165,4 +179,5 @@ La page publique [État de Lumi](https://lumi-bot-r4in.onrender.com/status) perm
 - la disponibilité de Neon.
 
 Cette page n'affiche aucun identifiant de serveur, d'utilisateur ou secret.
+
 
