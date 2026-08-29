@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-6.3.0-4AA3FF?style=for-the-badge" alt="Version 6.3.0">
+  <img src="https://img.shields.io/badge/Version-6.4.0-4AA3FF?style=for-the-badge" alt="Version 6.4.0">
   <img src="https://img.shields.io/badge/Access-Private-111827?style=for-the-badge" alt="Private access">
   <img src="https://img.shields.io/badge/Node.js-powered-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
   <img src="https://img.shields.io/badge/Discord.js-v14-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord.js v14">
@@ -31,7 +31,7 @@ Lumi est une assistante Discord francophone privée, créée par **ConnieCozy** 
 
 Elle est pensée pour accompagner quelques communautés choisies sur le long terme : modération, logs, utilitaires, AutoMod, commandes fun, outils d'assistance et petites interactions qui donnent plus de vie au serveur.
 
-Lumi n'est pas juste un bot à commandes. Dans son lore, c'est une petite assistante numérique douce, drôle, parfois sarcastique, toujours un peu électrique.
+Lumi n'est pas juste un bot à commandes. Dans son lore, c'est une petite assistante numérique douce, drôle, parfois sarcastique, toujours un peu électrique. Elle peut aussi répondre localement lorsqu'une personne la mentionne directement, sans enregistrer la conversation.
 
 > Short English summary: Lumi is a French Discord bot focused on moderation, logs, utility commands and long-term community tools.
 
@@ -91,9 +91,9 @@ Lumi est construite avec :
 ### Acquis
 
 - [x] Modération, logs, AutoMod et garde-fous de sécurité
-- [x] Configuration, staff, rôles, vérification, tickets et vocaux temporaires
+- [x] Configuration, staff, rôles, vérification, tickets et vocaux temporaires avec panneau persistant
 - [x] XP/Level, pêche, duels, LUMOT, Memory et annonces de jeux gratuits
-- [x] Assistant local de commandes et sondages Discord natifs
+- [x] Assistant local, réponses directes aux mentions et sondages Discord natifs
 - [x] Prisma 7, rétention des données et supervision externe
 - [x] Documentation publique et panneaux Discord ergonomiques
 
