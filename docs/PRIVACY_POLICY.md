@@ -1,6 +1,6 @@
 # Lumi privacy policy
 
-Dernière mise à jour : 2026-08-28
+Dernière mise à jour : 2026-08-29
 
 Cette politique explique quelles données Lumi peut utiliser pour fonctionner sur Discord.
 
@@ -23,6 +23,7 @@ Lumi peut traiter les données suivantes :
 - données temporaires de tickets ouverts : serveur, salon ticket, utilisateur ayant ouvert le ticket, type, résumé court, statut, staff ayant pris en charge, ID du message de suivi staff et date de création ;
 - état minimal des jeux gratuits : dernière liste Steam/Epic déjà postée par serveur afin d'éviter les doublons ;
 - données temporaires de vocaux privés : serveur, salon vocal temporaire, propriétaire, ID du panneau, mode d'accès, accès individuels et copie technique des permissions à restaurer tant que le salon existe ;
+- rappels temporaires : serveur, salon d'origine, utilisateur, texte du rappel, date de création et date prévue ;
 - contenu transmis volontairement via une commande de feedback.
 
 Quand une personne mentionne directement Lumi, le contenu de ce message est traité localement le temps de préparer la réponse. Il n'est pas enregistré dans Neon et n'est envoyé à aucun service d'intelligence artificielle externe.
@@ -47,6 +48,7 @@ Ces données servent à :
 - afficher ou poster les jeux gratuits Steam/Epic dans un salon configuré ;
 - créer et nettoyer des salons vocaux temporaires configurés par le staff ;
 - restaurer les permissions et le panneau d'un vocal temporaire après un redémarrage ;
+- programmer puis livrer les rappels demandés par les membres ;
 - répondre localement à une mention directe lorsque le serveur active cette fonction ;
 - recevoir des retours d'administrateurs via `/feedback`.
 
@@ -61,6 +63,8 @@ Les administrateurs du serveur sont responsables de la visibilité, des permissi
 Les données ne sont pas vendues.
 
 Elles peuvent être traitées par les services techniques nécessaires au fonctionnement de Lumi, comme Discord, Render, Neon ou GitHub, selon leur rôle respectif.
+
+Le Trivia récupère des questions génériques depuis QuizzAPI.fr. Aucun identifiant Discord, contenu de serveur, réponse de joueur ou score ne lui est transmis.
 
 ## Conservation
 
@@ -86,9 +90,11 @@ Les jeux gratuits Steam/Epic ne stockent pas d'historique complet. Lumi conserve
 
 Les vocaux temporaires ne stockent aucun contenu audio. Lumi conserve seulement la ligne technique du vocal actif afin de restaurer son panneau, son mode d'accès et les permissions modifiées. Les IDs de membres autorisés ou retirés restent limités à ce vocal actif. Quand le vocal est supprimé, toute cette ligne est supprimée aussi.
 
+Un rappel reste en base jusqu'à son déclenchement ou son annulation, dans une limite de trente jours. Il est supprimé avant sa livraison afin d'éviter un double envoi après une coupure de base de données. Un membre peut garder au maximum cinq rappels actifs par serveur.
+
 Lumi ne stocke pas les dates d'anniversaire des membres. Le module anniversaire est volontairement écarté pour éviter d'ajouter des données personnelles non nécessaires.
 
-Quand Lumi quitte ou est retirée d'un serveur, les données liées à ce serveur sont supprimées automatiquement de la base de données de Lumi. Cela inclut la configuration serveur, les cas de modération associés, les records de pêche du serveur, les profils XP/Level, les tickets encore ouverts, les vocaux temporaires encore suivis et l'état de publication des jeux gratuits.
+Quand Lumi quitte ou est retirée d'un serveur, les données liées à ce serveur sont supprimées automatiquement de la base de données de Lumi. Cela inclut la configuration serveur, les cas de modération associés, les records de pêche du serveur, les profils XP/Level, les tickets encore ouverts, les vocaux temporaires encore suivis, les rappels et l'état de publication des jeux gratuits.
 
 Une demande de vérification, correction, suppression ou anonymisation peut aussi être faite selon la procédure dédiée.
 
@@ -110,9 +116,7 @@ Le code public de Lumi sert uniquement de vitrine et ne doit pas contenir de sec
 
 ## Contact
 
-Pour une question ou une demande, utilisez le serveur support Lumi :
-
-https://discord.gg/wJ8xjWJ2Nd
+Un administrateur d'un serveur où Lumi est présente peut utiliser `/feedback` pour transmettre une question ou ouvrir une demande. Pour une demande de données, il faut seulement annoncer la demande dans cette commande ; les preuves sensibles sont échangées ensuite de manière privée avec l'équipe Lumi.
 
 
 
