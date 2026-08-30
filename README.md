@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-6.4.0-4AA3FF?style=for-the-badge" alt="Version 6.4.0">
+  <img src="https://img.shields.io/badge/Version-6.5.0-4AA3FF?style=for-the-badge" alt="Version 6.5.0">
   <img src="https://img.shields.io/badge/Access-Private-111827?style=for-the-badge" alt="Private access">
   <img src="https://img.shields.io/badge/Node.js-powered-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
   <img src="https://img.shields.io/badge/Discord.js-v14-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord.js v14">
@@ -53,7 +53,7 @@ Les logs permettent de garder une trace des événements importants : modératio
 
 ### 🎲 Des commandes utiles et plus légères
 
-Lumi propose aussi des commandes pratiques et fun pour rendre le serveur plus vivant sans transformer l'expérience en tableau de bord froid.
+Lumi propose aussi des commandes pratiques et fun : rappels légers, pêche numérique, jeux de mots, Memory et Trivia francophone, sans transformer l'expérience en tableau de bord froid.
 
 ### ⚡ Une vraie personnalité
 
@@ -92,7 +92,7 @@ Lumi est construite avec :
 
 - [x] Modération, logs, AutoMod et garde-fous de sécurité
 - [x] Configuration, staff, rôles, vérification, tickets et vocaux temporaires avec panneau persistant
-- [x] XP/Level, pêche, duels, LUMOT, Memory et annonces de jeux gratuits
+- [x] XP/Level, pêche, duels, LUMOT, Memory, Trivia, rappels et annonces de jeux gratuits
 - [x] Assistant local, réponses directes aux mentions et sondages Discord natifs
 - [x] Prisma 7, rétention des données et supervision externe
 - [x] Documentation publique et panneaux Discord ergonomiques
@@ -107,9 +107,9 @@ Lumi est construite avec :
 
 ## 🌐 Liens
 
-- 💬 Support Discord : [Lumi Support](https://discord.gg/wJ8xjWJ2Nd)
 - ⚡ Ajouter Lumi : [Invitation Discord](https://discord.com/oauth2/authorize?client_id=1349552568069787698&permissions=1099798015126&integration_type=0&scope=bot+applications.commands)
 - 🟢 État des systèmes : [Statut de Lumi](https://lumi-bot-r4in.onrender.com/status)
+- 📨 Retours et demandes : commande `/feedback`, réservée aux administrateurs des serveurs où Lumi est présente
 - ⚡ Projet : développé avec soin par **ConnieCozy** et **HexBoon Development**
 
 ---
@@ -120,8 +120,7 @@ Lumi est construite avec :
 - [Terms of Service](docs/TERMS_OF_SERVICE.md)
 - [Data Requests](docs/DATA_REQUESTS.md)
 - [User Guide](docs/USER_GUIDE.md)
-- [Changelog](changelog/CHANGELOG.md)
-- [Archives des anciennes versions](changelog/)
+- [Changelog et archives](changelog/CHANGELOG.md)
 
 ---
 
@@ -140,5 +139,6 @@ Le fichier `LICENSE` du dépôt public précise les conditions complètes.
 <p align="center">
   ⚡ Lumi veille. Probablement avec un peu trop d'énergie.
 </p>
+
 
 
