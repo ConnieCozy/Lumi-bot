@@ -156,21 +156,31 @@ Le staff peut activer ou désactiver les réponses aux mentions depuis `/configu
 
 ## 11. Jeux légers
 
-`/game game:LUMOT` lance **LUMOT**, le jeu de mots du flux. La première lettre est révélée et les couleurs indiquent les lettres bien placées, présentes ou absentes. Le mode peut être solo ou coopératif.
+`/game game:LUMOT` lance **LUMOT**, le jeu de mots du flux. La première lettre est révélée et les couleurs indiquent les lettres bien placées, présentes ou absentes. Le mode peut être solo ou coopératif. Lumi choisit au hasard un mot de 5 à 8 lettres : il n'y a plus de difficulté à régler.
 
-`/game game:Memory` lance une grille Memory personnelle. Trois difficultés règlent la taille de la grille.
+`/game game:Memory` lance une grille Memory personnelle équilibrée de 8 paires, sans difficulté à choisir.
 
-Les parties utilisent une session temporaire de cinq minutes en mémoire. Elles ne créent aucune ligne dans Neon et une seule partie peut être active par salon afin d'éviter le spam.
+`/game game:Trivia` lance cinq questions francophones auxquelles chaque membre peut répondre une fois. Les questions viennent de QuizzAPI.fr ; Lumi ne lui transmet aucun identifiant Discord, message personnel ou score.
 
-## 12. Sondages
+Les parties et leurs scores restent uniquement en mémoire. Elles ne créent aucune ligne dans Neon et une seule partie peut être active par salon afin d'éviter le spam.
+
+## 12. Rappels
+
+`/reminder create` programme un rappel entre une minute et trente jours. Lumi accepte au maximum cinq rappels actifs par membre et par serveur.
+
+`/reminder list` affiche uniquement tes rappels actifs et `/reminder cancel` en annule un grâce à son numéro.
+
+Le rappel est envoyé dans le salon d'origine. Si ce salon n'est plus accessible, Lumi tente un message privé. Le texte, les IDs techniques et la date sont conservés temporairement dans Neon, puis supprimés dès le déclenchement ou l'annulation.
+
+## 13. Sondages
 
 `/poll` ouvre un formulaire réservé au staff ou aux membres qui peuvent gérer les messages. Il accepte entre deux et dix réponses, une durée de 1 heure à 32 jours et un choix simple ou multiple.
 
 Le sondage utilise le système natif de Discord. Lumi ne stocke ni les réponses ni les votes dans Neon.
 
-## 13. État de Lumi
+## 14. État de Lumi
 
-La commande `/community` rassemble dans un seul message les liens officiels, l'invitation privée, le support, la vitrine GitHub, les documents publics et l'état des systèmes.
+La commande `/community` rassemble dans un seul message les liens officiels, l'invitation privée, la vitrine GitHub, les documents publics et l'état des systèmes. Un administrateur peut transmettre une question, un bug ou une demande d'accès avec `/feedback`.
 
 La page publique [État de Lumi](https://lumi-bot-r4in.onrender.com/status) permet de vérifier séparément :
 
