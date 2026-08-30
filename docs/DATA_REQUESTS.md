@@ -15,16 +15,17 @@ Lumi stocke seulement les données nécessaires au fonctionnement du bot :
 - profils XP/Level : serveur, utilisateur, XP total, niveau, messages comptés et dernier gain XP ;
 - cache jeux gratuits : dernière signature Steam/Epic postée par serveur pour éviter les doublons ;
 - vocaux temporaires actifs : serveur, salon vocal temporaire, propriétaire, message du panneau, mode d'accès, permissions à restaurer, accès individuels et dates techniques tant que le salon existe.
+- rappels actifs : serveur, salon d'origine, utilisateur, texte et date prévue, avec cinq rappels maximum par membre et par serveur et trente jours maximum.
 
 Quand Lumi quitte ou est retirée d'un serveur, les données liées à ce serveur sont supprimées automatiquement de la base de données de Lumi.
 
-Quand un membre quitte un serveur, Lumi supprime automatiquement ses données XP/Level et ses records de pêche liés à ce serveur. Les cas de modération restent liés au serveur afin de préserver l'historique staff.
+Quand un membre quitte un serveur, Lumi supprime automatiquement ses données XP/Level, ses records de pêche et ses rappels liés à ce serveur. Les cas de modération restent liés au serveur afin de préserver l'historique staff.
 
 Les profils XP/Level sans activité peuvent également être supprimés automatiquement après 180 jours afin de limiter la conservation de lignes inactives.
 
 Les vocaux temporaires ne contiennent pas d'audio ni d'historique de conversation. Les informations de panneau et de permissions sont supprimées de la base avec le salon temporaire.
 
-Les questions adressées à Lumi par `/lumi ask` ou par mention directe ne sont pas enregistrées dans la base de données.
+Les questions adressées à Lumi par `/lumi ask` ou par mention directe ne sont pas enregistrées dans la base de données. Les questions et scores du Trivia restent aussi en mémoire et ne sont pas enregistrés dans Neon.
 
 ## Qui peut faire une demande
 
@@ -75,11 +76,9 @@ Lumi ne fournit pas :
 
 ## Canal recommandé
 
-Les demandes liées aux données doivent être faites sur le serveur support Lumi afin que l'équipe puisse vérifier les preuves, poser des questions si nécessaire et répondre correctement.
+Un propriétaire ou administrateur du serveur concerné commence la demande avec `/feedback` en indiquant seulement sa nature. La commande transmet déjà l'identité Discord de l'administrateur et du serveur à l'équipe Lumi.
 
-La commande `/feedback` sert uniquement à transmettre une suggestion, un bug ou un retour court. Elle ne permet pas d'assurer un suivi ni de répondre directement à une demande de données.
-
-Pour une demande sensible, éviter de publier des IDs et captures dans un salon public.
+Les captures, IDs complémentaires et autres preuves sensibles ne doivent pas être placés dans le texte de `/feedback` ni publiés dans un salon public. L'équipe Lumi contacte ensuite l'administrateur de manière privée pour vérifier les éléments et assurer le suivi.
 
 
 
