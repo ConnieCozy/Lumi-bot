@@ -1,6 +1,6 @@
 # Lumi terms of service
 
-Dernière mise à jour : 2026-08-25
+Dernière mise à jour : 2026-08-29
 
 Ces conditions décrivent les règles d'utilisation de Lumi.
 
@@ -39,7 +39,7 @@ Chaque serveur reste responsable de ses décisions de modération, de ses règle
 
 Lumi est fournie en développement actif.
 
-Le bot peut être indisponible temporairement en cas de maintenance, incident Discord, hébergement, base de données ou mise à jour.
+Le bot ou une fonction dépendant d'une source externe, comme le Trivia, peut être indisponible temporairement en cas de maintenance, incident Discord, hébergement, base de données, API tierce ou mise à jour.
 
 Pendant sa phase privée, Lumi limite volontairement le nombre de serveurs acceptés et peut limiter la taille des serveurs invités. L'accès peut être permanent, accordé après demande validée, ou limité dans le temps pour un essai.
 
@@ -59,10 +59,8 @@ La politique de confidentialité est disponible ici :
 
 [PRIVACY_POLICY.md](PRIVACY_POLICY.md)
 
-## Support
+## Contact
 
-Pour une question, un bug ou une demande, utilisez le serveur support Lumi :
-
-https://discord.gg/wJ8xjWJ2Nd
+Un administrateur d'un serveur où Lumi est présente peut utiliser `/feedback` pour transmettre une question, un bug ou une demande à l'équipe Lumi.
 
 
