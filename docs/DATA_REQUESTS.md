@@ -23,6 +23,8 @@ Quand un membre quitte un serveur, Lumi supprime automatiquement ses données XP
 
 Les profils XP/Level sans activité peuvent également être supprimés automatiquement après 180 jours afin de limiter la conservation de lignes inactives.
 
+Les records de pêche permanents restent conservés tant que le membre reste sur le serveur. Ils ne sont plus supprimés pour simple inactivité.
+
 Les vocaux temporaires ne contiennent pas d'audio ni d'historique de conversation. Les informations de panneau et de permissions sont supprimées de la base avec le salon temporaire.
 
 Les questions adressées à Lumi par `/lumi ask` ou par mention directe ne sont pas enregistrées dans la base de données. Les questions et scores du Trivia restent aussi en mémoire et ne sont pas enregistrés dans Neon.
@@ -79,6 +81,7 @@ Lumi ne fournit pas :
 Un propriétaire ou administrateur du serveur concerné commence la demande avec `/feedback` en indiquant seulement sa nature. La commande transmet déjà l'identité Discord de l'administrateur et du serveur à l'équipe Lumi.
 
 Les captures, IDs complémentaires et autres preuves sensibles ne doivent pas être placés dans le texte de `/feedback` ni publiés dans un salon public. L'équipe Lumi contacte ensuite l'administrateur de manière privée pour vérifier les éléments et assurer le suivi.
+i.
 
 
 
