@@ -1,6 +1,6 @@
 # Lumi privacy policy
 
-Dernière mise à jour : 2026-08-29
+Dernière mise à jour : 2026-08-30
 
 Cette politique explique quelles données Lumi peut utiliser pour fonctionner sur Discord.
 
@@ -26,7 +26,7 @@ Lumi peut traiter les données suivantes :
 - rappels temporaires : serveur, salon d'origine, utilisateur, texte du rappel, date de création et date prévue ;
 - contenu transmis volontairement via une commande de feedback.
 
-Quand une personne mentionne directement Lumi, le contenu de ce message est traité localement le temps de préparer la réponse. Il n'est pas enregistré dans Neon et n'est envoyé à aucun service d'intelligence artificielle externe.
+Quand une personne mentionne directement Lumi, le contenu de ce message est traité localement le temps de préparer la réponse. Il n'est pas enregistré dans Neon et n'est envoyé à aucun service externe.
 
 Lumi ne stocke pas d'économie, d'inventaire social permanent, de contenu audio ou de dates d'anniversaire.
 
@@ -76,7 +76,7 @@ Une durée de conservation automatique peut être configurée pour les cas de mo
 
 Les records de pêche ne conservent pas l'historique de chaque pêche. Lumi garde seulement une ligne par joueur et par serveur avec le meilleur score permanent, le meilleur score de la semaine, le résultat de la semaine précédente, le meilleur score de saison mensuelle et des compteurs légers.
 
-Les records de pêche inactifs peuvent être supprimés automatiquement après une courte période de conservation afin de limiter l'espace utilisé sur la base de données. La durée recommandée pendant la phase privée est de 14 jours.
+Les records de pêche ne sont pas supprimés pour simple inactivité afin de préserver les captures totales et records permanents. Ils sont supprimés quand le membre quitte le serveur ou quand Lumi quitte le serveur.
 
 Les profils XP/Level sans activité peuvent être supprimés automatiquement après 180 jours afin de ne pas conserver indéfiniment les lignes de membres inactifs.
 
@@ -117,6 +117,7 @@ Le code public de Lumi sert uniquement de vitrine et ne doit pas contenir de sec
 ## Contact
 
 Un administrateur d'un serveur où Lumi est présente peut utiliser `/feedback` pour transmettre une question ou ouvrir une demande. Pour une demande de données, il faut seulement annoncer la demande dans cette commande ; les preuves sensibles sont échangées ensuite de manière privée avec l'équipe Lumi.
+
 
 
 
