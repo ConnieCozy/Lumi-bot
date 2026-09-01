@@ -1,6 +1,6 @@
 # Lumi privacy policy
 
-Dernière mise à jour : 2026-08-30
+Dernière mise à jour : 2026-08-31
 
 Cette politique explique quelles données Lumi peut utiliser pour fonctionner sur Discord.
 
@@ -27,6 +27,8 @@ Lumi peut traiter les données suivantes :
 - contenu transmis volontairement via une commande de feedback.
 
 Quand une personne mentionne directement Lumi, le contenu de ce message est traité localement le temps de préparer la réponse. Il n'est pas enregistré dans Neon et n'est envoyé à aucun service externe.
+
+Les calculs saisis dans `/calculator` et les valeurs utilisées dans `/convert` sont traités uniquement en mémoire le temps de répondre. Lumi ne les enregistre pas dans Neon et ne les transmet à aucun service externe. Une session de calculatrice expire au plus tard après dix minutes d'inactivité.
 
 Lumi ne stocke pas d'économie, d'inventaire social permanent, de contenu audio ou de dates d'anniversaire.
 
@@ -117,6 +119,7 @@ Le code public de Lumi sert uniquement de vitrine et ne doit pas contenir de sec
 ## Contact
 
 Un administrateur d'un serveur où Lumi est présente peut utiliser `/feedback` pour transmettre une question ou ouvrir une demande. Pour une demande de données, il faut seulement annoncer la demande dans cette commande ; les preuves sensibles sont échangées ensuite de manière privée avec l'équipe Lumi.
+
 
 
 
