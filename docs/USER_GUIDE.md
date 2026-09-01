@@ -154,7 +154,25 @@ Il est aussi possible de mentionner directement Lumi dans un message, par exempl
 
 Le staff peut activer ou désactiver les réponses aux mentions depuis `/configuration` > **Général**.
 
-## 11. Jeux légers
+## 11. Calculatrice et conversions
+
+`/calculator` ouvre une calculatrice interactive visible uniquement par la personne qui lance la commande. Les boutons permettent de saisir le calcul, revenir en arrière, tout réinitialiser ou fermer l'outil. Une seule calculatrice reste active par personne et sa session expire après dix minutes d'inactivité.
+
+`/convert duration` convertit localement les secondes, minutes, heures et jours. Par exemple :
+
+```text
+/convert duration value:12000 from:Secondes to:Heures
+```
+
+`/convert timezone` traduit une heure entre deux villes ou fuseaux. La date est facultative ; sans date, Lumi utilise le jour actuel dans le fuseau de départ. Les changements d'heure saisonniers sont pris en compte automatiquement.
+
+```text
+/convert timezone time:17:00 from:New York to:Paris
+```
+
+Ces outils répondent en privé, ne contactent aucun service externe et n'enregistrent ni calcul, ni heure, ni utilisateur dans Neon.
+
+## 12. Jeux légers
 
 `/game game:LUMOT` lance **LUMOT**, le jeu de mots du flux. La première lettre est révélée et les couleurs indiquent les lettres bien placées, présentes ou absentes. Le mode peut être solo ou coopératif. Lumi choisit au hasard un mot de 5 à 8 lettres : il n'y a plus de difficulté à régler.
 
@@ -164,7 +182,7 @@ Le staff peut activer ou désactiver les réponses aux mentions depuis `/configu
 
 Les parties et leurs scores restent uniquement en mémoire. Elles ne créent aucune ligne dans Neon et une seule partie peut être active par salon afin d'éviter le spam.
 
-## 12. Rappels
+## 13. Rappels
 
 `/reminder create` programme un rappel entre une minute et trente jours. Lumi accepte au maximum cinq rappels actifs par membre et par serveur.
 
@@ -172,13 +190,13 @@ Les parties et leurs scores restent uniquement en mémoire. Elles ne créent auc
 
 Le rappel est envoyé dans le salon d'origine. Si ce salon n'est plus accessible, Lumi tente un message privé. Le texte, les IDs techniques et la date sont conservés temporairement dans Neon, puis supprimés dès le déclenchement ou l'annulation.
 
-## 13. Sondages
+## 14. Sondages
 
 `/poll` ouvre un formulaire réservé au staff ou aux membres qui peuvent gérer les messages. Il accepte entre deux et dix réponses, une durée de 1 heure à 32 jours et un choix simple ou multiple.
 
 Le sondage utilise le système natif de Discord. Lumi ne stocke ni les réponses ni les votes dans Neon.
 
-## 14. État de Lumi
+## 15. État de Lumi
 
 La commande `/community` rassemble dans un seul message les liens officiels, l'invitation privée, la vitrine GitHub, les documents publics et l'état des systèmes. Un administrateur peut transmettre une question, un bug ou une demande d'accès avec `/feedback`.
 
