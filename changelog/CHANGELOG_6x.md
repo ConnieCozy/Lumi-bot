@@ -1,5 +1,9 @@
 # Changelog
 
+## [6.7.1] - 2026-09-01
+### fix
+- Free-game duplicate-posting and dependency-security patch: split Steam and Epic publication state per guild, changed automatic posts to include only newly discovered offers instead of every remaining active game, added a bounded per-offer history so one expired promotion cannot republish another store's catalog, migrated the previous combined signature without a first-run repost, kept manual posts synchronized with both source states, added expiry and legacy-state regressions, overrode Prisma CLI's vulnerable `mysql2` 3.15.3 dependency with 3.24.2 to restore a zero-vulnerability npm audit without downgrading Prisma, and bumped Lumi to 6.7.1 without a Prisma schema change.
+
 ## [6.7.0] - 2026-08-31
 ### add
 - Local assistant tools and stable-maintenance release: added private `/calculator` sessions with a compact button keypad, protected ownership, one active session per member, ten-minute expiry, backspace, reset, close, decimal and signed values, guarded division by zero and non-finite results, clean shutdown disposal and no Neon storage; added `/convert duration` for seconds, minutes, hours and days plus `/convert timezone` across twenty curated IANA zones with optional dates, seasonal clock-change handling, invalid date/time protection and no external API or stored input; connected both tools to local `/lumi ask` discovery and added permanent arithmetic, component, duration, date, timezone and daylight-saving regressions; bounded Trivia redirects, updated Axios to 1.20.0, retained stable Prisma 7.10 while Prisma 8 remains a release candidate, completed the final dependency, secret, permission, network, timer, database and shutdown audit with zero npm vulnerabilities and verified package signatures, refreshed private and public maintenance documentation, and bumped Lumi to 6.7.0.
