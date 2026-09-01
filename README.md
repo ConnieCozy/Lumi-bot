@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-6.6.0-4AA3FF?style=for-the-badge" alt="Version 6.6.0">
+  <img src="https://img.shields.io/badge/Version-6.7.0-4AA3FF?style=for-the-badge" alt="Version 6.7.0">
   <img src="https://img.shields.io/badge/Access-Private-111827?style=for-the-badge" alt="Private access">
   <img src="https://img.shields.io/badge/Node.js-powered-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
   <img src="https://img.shields.io/badge/Discord.js-v14-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord.js v14">
@@ -53,7 +53,7 @@ Les logs permettent de garder une trace des événements importants : modératio
 
 ### 🎲 Des commandes utiles et plus légères
 
-Lumi propose aussi des commandes pratiques et fun : rappels légers, pêche numérique, jeux de mots, Memory et Trivia francophone, sans transformer l'expérience en tableau de bord froid.
+Lumi propose aussi des commandes pratiques et fun : calculatrice privée, conversions de durée et d'heure mondiale, rappels légers, pêche numérique, jeux de mots, Memory et Trivia francophone, sans transformer l'expérience en tableau de bord froid.
 
 ### ⚡ Une vraie personnalité
 
@@ -63,9 +63,9 @@ Au-delà des commandes, Lumi garde une identité reconnaissable : une assistante
 
 ## 📢 État du projet
 
-Lumi est en phase stable avec maintenance suivie.
+Lumi est en phase de maintenance stable.
 
-Le projet continue d'évoluer plus calmement comme une assistante privée : peu de serveurs, plus de soin, des ajouts réfléchis, et une base technique prête à évoluer plus largement un jour si l'infrastructure suit.
+La feuille de route principale est terminée. Lumi continue comme une assistante privée suivie avec peu de serveurs, des correctifs ciblés et des mises à jour techniques contrôlées.
 
 Chaque version sert à rendre Lumi plus fiable, plus agréable et plus facile à maintenir sur le long terme.
 
@@ -93,15 +93,15 @@ Lumi est construite avec :
 - [x] Modération, logs, AutoMod et garde-fous de sécurité
 - [x] Configuration, staff, rôles, vérification, tickets et vocaux temporaires avec panneau persistant
 - [x] XP/Level, pêche, duels, LUMOT, Memory, Trivia, rappels et annonces de jeux gratuits
-- [x] Assistant local, réponses directes aux mentions et sondages Discord natifs
+- [x] Assistant local, calculatrice, conversions, réponses directes aux mentions et sondages Discord natifs
 - [x] Prisma 7, rétention des données et supervision externe
 - [x] Documentation publique et panneaux Discord ergonomiques
 
-### Suite possible
+### Maintenance stable
 
-- [ ] Outils communautaires choisis selon les besoins réels des serveurs
-- [ ] Fonctions d'assistance légères sans service payant
-- [ ] Dashboard web uniquement si les panneaux Discord ne suffisent plus
+- [ ] Surveiller les évolutions de Discord, Node.js, Prisma et des dépendances
+- [ ] Publier des correctifs seulement lorsqu'un besoin réel apparaît
+- [ ] Garder les nouvelles fonctions rares, légères et utiles aux serveurs actuels
 
 ---
 
@@ -139,6 +139,7 @@ Le fichier `LICENSE` du dépôt public précise les conditions complètes.
 <p align="center">
   ⚡ Lumi veille. Probablement avec un peu trop d'énergie.
 </p>
+
 
 
 
