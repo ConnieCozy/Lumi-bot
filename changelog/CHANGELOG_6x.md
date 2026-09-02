@@ -1,5 +1,9 @@
 # Changelog
 
+## [6.7.2] - 2026-09-02
+### fix
+- Temporary-voice creation stability patch: protected channels while their database row, member move and control panel are being created; delayed cleanup attempts that arrive during this protected window; serialized panel creation per channel to prevent duplicate concurrent sends; replaced the fragile panel record update with a non-throwing guarded update that removes an orphan panel if the row genuinely disappeared; excluded pending channels from daily reconciliation; added permanent race-protection regressions; and bumped Lumi to 6.7.2 without changing the Prisma schema or slash commands.
+
 ## [6.7.1] - 2026-09-01
 ### fix
 - Free-game duplicate-posting and dependency-security patch: split Steam and Epic publication state per guild, changed automatic posts to include only newly discovered offers instead of every remaining active game, added a bounded per-offer history so one expired promotion cannot republish another store's catalog, migrated the previous combined signature without a first-run repost, kept manual posts synchronized with both source states, added expiry and legacy-state regressions, overrode Prisma CLI's vulnerable `mysql2` 3.15.3 dependency with 3.24.2 to restore a zero-vulnerability npm audit without downgrading Prisma, and bumped Lumi to 6.7.1 without a Prisma schema change.
