@@ -178,7 +178,7 @@ Ces outils répondent en privé, ne contactent aucun service externe et n'enregi
 
 `/game game:Memory` lance une grille Memory personnelle équilibrée de 8 paires, sans difficulté à choisir.
 
-`/game game:Trivia` lance cinq questions francophones auxquelles chaque membre peut répondre une fois. Les questions viennent de QuizzAPI.fr ; Lumi ne lui transmet aucun identifiant Discord, message personnel ou score.
+`/game game:Trivia mode:Solo` lance cinq questions réservées à la personne qui démarre la partie. Le mode `Coopératif` permet à chaque membre de répondre une fois. Les questions viennent de QuizzAPI.fr ; Lumi ne lui transmet aucun identifiant Discord, message personnel ou score.
 
 Les parties et leurs scores restent uniquement en mémoire. Elles ne créent aucune ligne dans Neon et une seule partie peut être active par salon afin d'éviter le spam.
 
