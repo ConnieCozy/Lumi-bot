@@ -1,5 +1,9 @@
 # Changelog
 
+## [6.7.3] - 2026-09-06
+### fix
+- Trivia solo-mode isolation patch: preserved the selected solo or cooperative mode in every session, restricted solo answers to the member who launched the game, kept cooperative answers open to other members, displayed the active mode directly on the question card, clarified the slash-command option, added a permanent access regression, and bumped Lumi to 6.7.3 without a Prisma schema change.
+
 ## [6.7.2] - 2026-09-02
 ### fix
 - Temporary-voice creation stability patch: protected channels while their database row, member move and control panel are being created; delayed cleanup attempts that arrive during this protected window; serialized panel creation per channel to prevent duplicate concurrent sends; replaced the fragile panel record update with a non-throwing guarded update that removes an orphan panel if the row genuinely disappeared; excluded pending channels from daily reconciliation; added permanent race-protection regressions; and bumped Lumi to 6.7.2 without changing the Prisma schema or slash commands.
