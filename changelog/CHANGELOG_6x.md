@@ -1,5 +1,9 @@
 # Changelog
 
+## [6.7.4] - 2026-10-21
+### fix
+- Monthly dependency-security maintenance: updated patched transitive packages used by the HTTP and status services, including `undici`, `proxy-addr`, `qs`, `follow-redirects`, `fast-uri`, `brace-expansion` and their supporting packages; confirmed the production dependency set has zero npm audit vulnerabilities; retained the current stable Discord.js and Prisma releases because no compatible update or Discord API migration is required; and bumped Lumi to 6.7.4 without changing the Prisma schema, environment variables or slash-command definitions.
+
 ## [6.7.3] - 2026-09-06
 ### fix
 - Trivia solo-mode isolation patch: preserved the selected solo or cooperative mode in every session, restricted solo answers to the member who launched the game, kept cooperative answers open to other members, displayed the active mode directly on the question card, clarified the slash-command option, added a permanent access regression, and bumped Lumi to 6.7.3 without a Prisma schema change.
