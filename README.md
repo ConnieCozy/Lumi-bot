@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-6.7.5-4AA3FF?style=for-the-badge" alt="Version 6.7.5">
+  <img src="https://img.shields.io/badge/Version-6.7.6-4AA3FF?style=for-the-badge" alt="Version 6.7.6">
   <img src="https://img.shields.io/badge/Access-Private-111827?style=for-the-badge" alt="Private access">
   <img src="https://img.shields.io/badge/Node.js-powered-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
   <img src="https://img.shields.io/badge/Discord.js-v14-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord.js v14">
@@ -20,7 +20,7 @@
   <img src="https://img.shields.io/badge/Langue-FR%20first-0055FF?style=for-the-badge" alt="Langue FR first">
   <img src="https://img.shields.io/badge/Mood-Sweet%20%2B%20sarcastic-FFD43B?style=for-the-badge" alt="Mood sweet and sarcastic">
   <img src="https://img.shields.io/badge/Energy-electric-FFE066?style=for-the-badge" alt="Energy electric">
-  <img src="https://img.shields.io/badge/Status-Online-3FB950?style=for-the-badge" alt="Status online">
+  <img src="https://img.shields.io/badge/Status-Online-3FB950?style=for-the-badge" alt="Status offline">
 </p>
 
 ---
