@@ -1,5 +1,9 @@
 # Changelog
 
+## [6.7.6] - 2026-11-01
+### fix
+- Discord Gateway rollback patch: removed the forced IPv4 resolver preference introduced in 6.7.5 after a Render deployment remained idle, restoring Discord.js' default network behavior while keeping the existing readiness, recovery and safe-restart safeguards; bumped Lumi to 6.7.6 without a Prisma schema, environment-variable or slash-command change.
+
 ## [6.7.5] - 2026-11-01
 ### fix
 - Discord Gateway startup recovery patch: prefer IPv4 before the Discord client is loaded so a Render deployment cannot remain indefinitely idle behind an unavailable IPv6 WebSocket route; preserved all existing Gateway recovery safeguards and bumped Lumi to 6.7.5 without a Prisma schema, environment-variable or slash-command change.
