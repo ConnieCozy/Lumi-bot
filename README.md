@@ -20,7 +20,7 @@
   <img src="https://img.shields.io/badge/Langue-FR%20first-0055FF?style=for-the-badge" alt="Langue FR first">
   <img src="https://img.shields.io/badge/Mood-Sweet%20%2B%20sarcastic-FFD43B?style=for-the-badge" alt="Mood sweet and sarcastic">
   <img src="https://img.shields.io/badge/Energy-electric-FFE066?style=for-the-badge" alt="Energy electric">
-  <img src="https://img.shields.io/badge/Status-Online-3FB950?style=for-the-badge" alt="Status offline">
+  <img src="https://img.shields.io/badge/Status-Offline-3FB950?style=for-the-badge" alt="Status online">
 </p>
 
 ---
